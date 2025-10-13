@@ -47,8 +47,8 @@ export function ProjectsSection() {
                 <p className="leading-relaxed">{p.summary}</p>
                 <p className="text-sm text-muted-foreground">Dampak: {p.impact}</p>
                 <img
-                  src={`/placeholder.svg?height=140&width=480&query=diagram%20excel%20atau%20inventaris`}
-                  alt=""
+                  src={p.image || "/placeholder.svg?height=140&width=480&query=ilustrasi%20proyek"}
+                  alt={p.alt || `Ilustrasi untuk ${p.title}`}
                   className="mt-2 w-full rounded-md border"
                 />
               </CardContent>

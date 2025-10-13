@@ -20,6 +20,14 @@ export type Certification = {
   date: string
 }
 
+export type Project = {
+  title: string
+  summary: string
+  impact: string
+  image?: string
+  alt?: string
+}
+
 export const cvData = {
   name: "Nila Wati",
   role: "Karyawan Administrasi & Operasional Toko",
@@ -90,16 +98,22 @@ export const cvData = {
       summary:
         "Menyusun ulang alur pengecekan dan pengiriman barang, serta analisis stok untuk mengurangi kehabisan barang.",
       impact: "Peningkatan efisiensi dan akurasi proses operasional.",
+      image: "/alur-operasional-inventaris-diagram.jpg",
+      alt: "Diagram alur operasional dan manajemen stok",
     },
     {
       title: "Dashboard Laporan Utang-Piutang (Excel)",
       summary: "Membangun template dan ringkasan mingguan menggunakan pivot & grafik untuk monitoring keuangan dasar.",
       impact: "Transparansi dan kecepatan pelaporan meningkat.",
+      image: "images/excel.jpg",
+      alt: "Dashboard Excel untuk laporan utang-piutang dengan grafik",
     },
     {
       title: "Standarisasi Korespondensi Pelanggan",
       summary: "Menyusun panduan balasan dan pelacakan keluhan untuk konsistensi layanan daring maupun luring.",
       impact: "Kepuasan pelanggan dan retensi meningkat.",
+      image: "/template-korespondensi-pelanggan-email.jpg",
+      alt: "Template standar korespondensi pelanggan",
     },
-  ],
+  ] as Project[],
 }

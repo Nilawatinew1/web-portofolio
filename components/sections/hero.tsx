@@ -74,7 +74,7 @@ export function HeroSection() {
         <div className="order-1 md:order-2">
           <div className="mx-auto size-40 overflow-hidden rounded-xl border md:size-48">
             <img
-              src="/images/nila-wati-cv.jpg"
+              src="/images/Pasfoto.jpg"
               alt="Foto Nila Wati (cropped from CV)"
               className="size-full object-cover"
               style={{ objectPosition: "center 15%" }}
