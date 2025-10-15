@@ -112,7 +112,7 @@ export const cvData = {
       title: "Standarisasi Korespondensi Pelanggan",
       summary: "Menyusun panduan balasan dan pelacakan keluhan untuk konsistensi layanan daring maupun luring.",
       impact: "Kepuasan pelanggan dan retensi meningkat.",
-      image: "/template-korespondensi-pelanggan-email.jpg",
+      image: "images/layanan.jpg",
       alt: "Template standar korespondensi pelanggan",
     },
   ] as Project[],
