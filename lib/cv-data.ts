@@ -105,7 +105,7 @@ export const cvData = {
       title: "Dashboard Laporan Utang-Piutang (Excel)",
       summary: "Membangun template dan ringkasan mingguan menggunakan pivot & grafik untuk monitoring keuangan dasar.",
       impact: "Transparansi dan kecepatan pelaporan meningkat.",
-      image: "images/excel.jpg",
+      image: "images/dashboard.jpg",
       alt: "Dashboard Excel untuk laporan utang-piutang dengan grafik",
     },
     {
