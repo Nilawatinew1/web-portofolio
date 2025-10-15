@@ -98,7 +98,7 @@ export const cvData = {
       summary:
         "Menyusun ulang alur pengecekan dan pengiriman barang, serta analisis stok untuk mengurangi kehabisan barang.",
       impact: "Peningkatan efisiensi dan akurasi proses operasional.",
-      image: "/alur-operasional-inventaris-diagram.jpg",
+      image: "/images/optimasi.png",
       alt: "Diagram alur operasional dan manajemen stok",
     },
     {
