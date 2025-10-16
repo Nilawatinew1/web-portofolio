@@ -125,6 +125,5 @@ export const cvData = {
       impact: "Sedang Berjalan.",
       image: "images/pra hackaton.jpg",
       alt: "Foto Pra Hackaton",
-    },
   ] as Project[],
 }
