@@ -87,10 +87,14 @@ export const cvData = {
     },
   ] as Education[],
   certifications: [
-    { title: "Diklat Nasional: Mengenal Coding dan AI untuk Pembelajaran", date: "Juli 2025" },
-    { title: "Kelas Karir: Microsoft Excel untuk Pencatatan Keuangan Dasar", date: "Juli 2025" },
     { title: "DQLab Academy: Bootcamp Data Analyst with Excel Batch 18", date: "Sedang Berjalan" },
+    { title: "Digital Talent Scholarship: Practical Real Business Application for Business Intelligence Analyst, date: "September 2025" },
     { title: "Kelas Karir: Pelatihan Excel Admin Perkantoran", date: "September 2025" },
+    { title: "Digital Talent Scholarship: Fundamental of Data Analyst, date: "Agustus 2025" },
+    { title: "Universiti Kebangsaan Malaysia (UKM): Webinar Antarbangsa Ulama Nusantar ke 5", date: "Juli 2025" },
+    { title: "MySkill: Data Visualization with Microsoft Excel", date: "Juli 2025" },
+    { title: "Kelas Karir: Microsoft Excel untuk Pencatatan Keuangan Dasar", date: "Juli 2025" },
+    { title: "Dicoding Indonesia: AI Praktis untuk Produktivitas", date: "Juni 2025" },
   ] as Certification[],
   projects: [
     {
@@ -114,6 +118,13 @@ export const cvData = {
       impact: "Kepuasan pelanggan dan retensi meningkat.",
       image: "images/layanan.jpg",
       alt: "Template standar korespondensi pelanggan",
+    },
+    {
+      title: "Pra-Hackathon Data Analytics",
+      summary: "Pada tahap ini, peserta akan diberikan tantangan atau tugas khusus yang menguji pemahaman dan kemampuan praktis mereka berdasarkan materi pelatihan yang telah diikuti. Tujuan Pra-hackathon adalah memastikan peserta memiliki kesiapan teknis dan kreativitas dalam mengaplikasikan ilmu yang telah dipelajari selama pelatihan sebelum memasuki kegiatan Hackathon.",
+      impact: "Sedang Berjalan.",
+      image: "images/pra hackaton.jpg",
+      alt: "Foto Pra Hackaton",
     },
   ] as Project[],
 }
