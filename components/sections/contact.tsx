@@ -35,12 +35,6 @@ export function ContactSection() {
             <Send className="mr-2 size-4" /> LinkedIn
           </a>
         </Button>
-        <Button variant="ghost" onClick={() => copy(email, "Email")}>
-          Salin Email
-        </Button>
-        <Button variant="ghost" onClick={() => copy(phone, "Nomor")}>
-          Salin Nomor
-        </Button>
       </div>
     </section>
   )

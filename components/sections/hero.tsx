@@ -2,7 +2,7 @@
 import { cvData } from "@/lib/cv-data"
 import { Button } from "@/components/ui/button"
 import { useEffect, useState } from "react"
-import { ArrowDownRight, FileText, Linkedin } from "lucide-react"
+import { ArrowDownRight, Download, Linkedin } from "lucide-react"
 
 function useTypewriter(words: string[], speed = 80, pause = 1200) {
   const [index, setIndex] = useState(0)
@@ -41,7 +41,7 @@ export function HeroSection() {
 
   return (
     <section id="about" className="relative isolate">
-      <div className="mx-auto grid max-w-6xl grid-cols-1 gap-8 px-4 py-12 md:grid-cols-[1fr_auto] md:items-center md:py-16">
+      <div className="mx-auto grid max-w-6xl grid-cols-1 gap-8 px-4 py-12 md:grid-cols-[2fr_1fr] md:items-center md:py-16">
         <div className="order-2 md:order-1">
           <p className="text-sm text-muted-foreground">Halo, saya</p>
           <h1 className="text-pretty text-3xl font-semibold leading-tight sm:text-4xl">{cvData.name}</h1>
@@ -60,9 +60,9 @@ export function HeroSection() {
               </a>
             </Button>
             <Button variant="secondary" asChild>
-              <a href="#contact">
-                <FileText className="mr-2 size-4" />
-                Hubungi Saya
+              <a href="/cv-nila-wati.pdf" download>
+                <Download className="mr-2 size-4" />
+                Download CV
               </a>
             </Button>
           </div>
@@ -72,13 +72,15 @@ export function HeroSection() {
         </div>
 
         <div className="order-1 md:order-2">
-          <div className="mx-auto size-40 overflow-hidden rounded-xl border md:size-48">
-            <img
-              src="/images/foto-profil-nila.png"
-              alt="Foto Nila Wati"
-              className="size-full object-cover"
-              style={{ objectPosition: "center 15%" }}
-            />
+          <div className="ml-auto mr-0 size-56 overflow-hidden rounded-full bg-gradient-to-br from-[#00ACAC] to-teal-600 p-1 md:size-64 md:ml-8">
+            <div className="size-full overflow-hidden rounded-full">
+              <img
+                src="/images/foto-profil-nila.png"
+                alt="Foto Nila Wati"
+                className="size-full object-cover"
+                style={{ objectPosition: "center 15%" }}
+              />
+            </div>
           </div>
         </div>
       </div>

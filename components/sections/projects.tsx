@@ -1,8 +1,11 @@
 "use client"
 import { cvData } from "@/lib/cv-data"
 import type React from "react"
+import Link from "next/link"
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import { Button } from "@/components/ui/button"
+import { ExternalLink } from "lucide-react"
 
 function TiltCard(props: React.HTMLAttributes<HTMLDivElement>) {
   return (
@@ -43,14 +46,24 @@ export function ProjectsSection() {
               <CardHeader>
                 <CardTitle className="text-lg">{p.title}</CardTitle>
               </CardHeader>
-              <CardContent className="space-y-2">
+              <CardContent className="space-y-3">
                 <p className="leading-relaxed">{p.summary}</p>
                 <p className="text-sm text-muted-foreground">Dampak: {p.impact}</p>
-                <img
-                  src={p.image || "/placeholder.svg?height=140&width=480&query=ilustrasi%20proyek"}
-                  alt={p.alt || `Ilustrasi untuk ${p.title}`}
-                  className="mt-2 w-full rounded-md border"
-                />
+                <div className="relative h-48 w-full overflow-hidden rounded-md border">
+                  <img
+                    src={p.image || "/placeholder.svg?height=140&width=480&query=ilustrasi%20proyek"}
+                    alt={p.alt || `Ilustrasi untuk ${p.title}`}
+                    className="h-full w-full object-cover object-center"
+                  />
+                </div>
+                {p.link && (
+                  <Link href={p.link} target="_blank" rel="noopener noreferrer">
+                    <Button variant="outline" size="sm" className="w-full">
+                      <ExternalLink className="mr-2 h-4 w-4" />
+                      Lihat Proyek
+                    </Button>
+                  </Link>
+                )}
               </CardContent>
             </Card>
           </TiltCard>
