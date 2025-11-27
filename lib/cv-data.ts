@@ -33,7 +33,7 @@ export const cvData = {
   name: "Nila Wati",
   role: "Karyawan Administrasi & Operasional Toko",
   summary:
-    "Seorang profesional administrasi yang terorganisir, teliti, dan mandiri dengan pengalaman 3 tahun dalam mendukung kelancaran operasional bisnis. Mahir dalam berbagai tugas administrasi kunci, termasuk manajemen data keuangan, entri data, pelaporan, dan manajemen inventaris.",
+    "Profesional administrasi yang terorganisir, teliti, dan mandiri dengan pengalaman 3 tahun dalam mendukung kelancaran operasional bisnis. Mahir dalam berbagai tugas administrasi kunci, termasuk manajemen data keuangan, entri data, pelaporan, dan manajemen inventaris.",
   contacts: {
     email: "nilawatinew786@gmail.com",
     instagram: "https://www.instagram.com/_nilawtt/",
@@ -152,7 +152,7 @@ export const cvData = {
       summary:
         "Video ini menggambarkan pekerjaan saya sehari-hari yang dibuat menggunakan video generatif AI.",
       impact:
-        "Proyek ini menunjukkan keefisienan, adaptif, dan mahir menggunakan alat AI terbaru untuk menghasilkan konten visual berkualitas tinggi.",
+        "Proyek ini menunjukkan adaptif dan mahir menggunakan alat AI untuk menghasilkan konten visual berkualitas tinggi.",
       image: "/images/generatif-AI.png",
       alt: "Generatif",
       link: "https://www.linkedin.com/posts/nila-wati786_baru-coba-membuat-video-menggunakan-ai-untuk-activity-7395339114277007360-m3WT?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFIgAiIB6l1SQkTA4MT6ICC32jAc7SO21hw",
