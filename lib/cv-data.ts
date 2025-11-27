@@ -33,9 +33,10 @@ export const cvData = {
   name: "Nila Wati",
   role: "Karyawan Administrasi & Operasional Toko",
   summary:
-    "Profesional administrasi yang terorganisir, teliti, dan mandiri dengan pengalaman 2+ tahun mendukung kelancaran operasional bisnis. Terampil dalam entri data, pembukuan dasar, pelaporan, serta manajemen inventaris. Menguasai Microsoft Excel dan pengarsipan digital untuk mendukung pengambilan keputusan yang akurat.",
+    "Seorang profesional administrasi yang terorganisir, teliti, dan mandiri dengan pengalaman 3 tahun dalam mendukung kelancaran operasional bisnis. Mahir dalam berbagai tugas administrasi kunci, termasuk manajemen data keuangan, entri data, pelaporan, dan manajemen inventaris.",
   contacts: {
     email: "nilawatinew786@gmail.com",
+    instagram: "https://www.instagram.com/_nilawtt/",
     phone: "0877-9630-1889",
     linkedin: "https://www.linkedin.com/in/nila-wati786",
   },
@@ -99,15 +100,7 @@ export const cvData = {
   ] as Certification[],
   projects: [
     {
-      title: "Pra-Hackathon Data Analytics",
-      summary: "Pada tahap ini, peserta akan diberikan tantangan atau tugas khusus yang menguji pemahaman dan kemampuan praktis mereka berdasarkan materi pelatihan yang telah diikuti. Tujuan Pra-hackathon adalah memastikan peserta memiliki kesiapan teknis dan kreativitas dalam mengaplikasikan ilmu yang telah dipelajari selama pelatihan sebelum memasuki kegiatan Hackathon.",
-      impact: "Sedang Berjalan.",
-      image: "images/pra hackaton.jpg",
-      alt: "Foto Pra Hackaton",
-      link: "https://github.com/nilawati/pra-hackathon-analytics",
-    },
-    {
-      title: "Final Project Ousean Group — Data Analyst with Excel",
+      title: "Cleaning Data - Ousean Group",
       summary:
         "Menyelesaikan final project dari Ousean Group dengan menganalisis data peserta magang. Proses mencakup data cleaning (duplikasi, format tanggal, kapitalisasi), analisis statistik deskriptif dengan Excel (COUNTIF, PivotTable), hingga visualisasi data dan penyajian laporan di PowerPoint dan Canva.",
       impact:
@@ -117,7 +110,7 @@ export const cvData = {
       link: "https://www.linkedin.com/posts/nila-wati786_analisa-data-activity-7351070489806524418-eGsw?utm_source=share&utm_medium=member_desktop&rcm=ACoAADoZ7oIB21BETzxOr5fzD7OTMxKt_jSYcew",
     },
     {
-      title: "Mini Task: Data Visualization with Excel — MySkill",
+      title: "Data Visualization with Excel — MySkill",
       summary:
         "Mengerjakan mini task MySkill tentang visualisasi data menggunakan Microsoft Excel. Membuat berbagai jenis chart seperti column, line, pie, dan combo axis untuk menampilkan data produksi dan pengeluaran ternak secara informatif dan mudah dipahami.",
       impact:
@@ -126,16 +119,6 @@ export const cvData = {
       alt: "Visualisasi data produksi dan pengeluaran ternak dengan Excel",
       link: "https://www.linkedin.com/posts/nila-wati786_data-visualization-using-excel-activity-7346516008997670913-mzgz?utm_source=share&utm_medium=member_desktop&rcm=ACoAADoZ7oIB21BETzxOr5fzD7OTMxKt_jSYcew",
     },    
-    {
-      title: "Booklet Webinar: Tafsir dan Hadits Nusantara",
-      summary:
-        "Mendesain booklet webinar antarbangsa yang membahas tafsir, hadis, dan pemikiran Islam kontemporer di era digital. Menyoroti tema integrasi ilmu, verifikasi hadis di media sosial, dan tantangan digitalisasi studi Islam.",
-      impact:
-        "Memperluas wawasan lintas disiplin antara teologi, sosial, dan teknologi.",
-      image: "/images/tafsir-hadits-nusantara.png",
-      alt: "Desain booklet webinar Tafsir dan Hadits Nusantara",
-      link: "https://www.linkedin.com/posts/nila-wati786_ringkasan-activity-7347255494803169281-3GHL?utm_source=share&utm_medium=member_desktop&rcm=ACoAADoZ7oIB21BETzxOr5fzD7OTMxKt_jSYcew",
-    },
     {
       title: "Infografis Daya Saing Tenaga Kerja Indonesia",
       summary: "Membuat infografis menggunakan Canva dengan penerapan prinsip desain visual. Visualisasi datanya diolah dari Excel untuk menampilkan perbandingan daya saing tenaga kerja Indonesia di ASEAN.",
@@ -152,8 +135,27 @@ export const cvData = {
         "Meningkatkan kesadaran akan etika berinternet dan tanggung jawab digital melalui desain visual yang edukatif.",
       image: "/images/etika-digital.png",
       alt: "Infografis Etika Digital: Jadi Pengguna Cerdas di Dunia Maya",
-      link: "https://www.canva.com/",
-    }
-      
+      link: "https://www.linkedin.com/posts/nila-wati786_halooo-ini-adalah-final-project-dari-canva-activity-7347804955061211136-nLbA?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFIgAiIB6l1SQkTA4MT6ICC32jAc7SO21hw",
+    },
+    {
+      title: "Dashboard Penjualan Toko Sinar Surya Tahun 2024",
+      summary:
+        "Dashboard yang dibuat sepenuhnya dengan Microsot Excel untuk mendemonstrasikan bagaimana data mentah dapat diubah menjadi wawasan yang jelas untuk pengambilan keputusan usaha kecil.",
+      impact:
+        "Kemampuan untuk menyajikan data yang kompleks secara visual dan ringkas, memungkinkan pemilik bisnis (yang mungkin non-teknis) membuat keputusan yang lebih baik dengan cepat.",
+      image: "/images/dashboard-sinar.jpg",
+      alt: "Dashboard",
+      link: "https://www.linkedin.com/posts/nila-wati786_end-to-end-worklow-activity-7397501946632265729-B8Og?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFIgAiIB6l1SQkTA4MT6ICC32jAc7SO21hw",
+    },  
+     {
+      title: "Video Pegawai Toko - Artificial Intelligence",
+      summary:
+        "Video ini menggambarkan pekerjaan saya sehari-hari yang dibuat menggunakan video generatif AI.",
+      impact:
+        "Proyek ini menunjukkan keefisienan, adaptif, dan mahir menggunakan alat AI terbaru untuk menghasilkan konten visual berkualitas tinggi.",
+      image: "/images/generatif-AI.png",
+      alt: "Generatif",
+      link: "https://www.linkedin.com/posts/nila-wati786_baru-coba-membuat-video-menggunakan-ai-untuk-activity-7395339114277007360-m3WT?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFIgAiIB6l1SQkTA4MT6ICC32jAc7SO21hw",
+    }  
   ] as Project[],
 }
