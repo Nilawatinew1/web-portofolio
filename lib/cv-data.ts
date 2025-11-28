@@ -33,7 +33,7 @@ export const cvData = {
   name: "Nila Wati",
   role: "Karyawan Administrasi & Operasional Toko",
   summary:
-    "Profesional administrasi yang terorganisir, teliti, dan mandiri dengan pengalaman 3 tahun dalam mendukung kelancaran operasional bisnis. Mahir dalam berbagai tugas administrasi kunci, termasuk manajemen data keuangan, entri data, pelaporan, dan manajemen inventaris.",
+    "Profesional administrasi yang terorganisir, teliti, dan mandiri dengan pengalaman 3 tahun dalam mendukung kelancaran berbagai tugas administrasi dan operasional bisnis",
   contacts: {
     email: "nilawatinew786@gmail.com",
     instagram: "https://www.instagram.com/_nilawtt?utm_source=qr&igsh=ZDJra2NlMjdyY3ls",
@@ -64,7 +64,7 @@ export const cvData = {
     {
       role: "Karyawan Administrasi dan Operasional Toko",
       company: "Toko Kilometer 20, Kota Palangka Raya",
-      start: "2023",
+      start: "Januari 2023",
       end: "Sekarang",
       bullets: [
         "Mengelola transaksi harian/mingguan, laporan utang-piutang, dan menyediakan data akurat untuk keputusan finansial.",
