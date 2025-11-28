@@ -45,7 +45,7 @@ export const cvData = {
       items:
         "Entri Data",
         "Pengolahan Data",
-        "Pembukuan dan Pelaporan Keuangan Dasar",
+        "Pelaporan Keuangan Dasar",
         "Manajemen Inventaris",
         "Pengarsipan Digital",
         "Microsoft Office - Excel, Word, PowerPoint",
