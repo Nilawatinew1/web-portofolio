@@ -108,18 +108,7 @@ export const cvData = {
         "Menangani seluruh Korespondensi Resmi organisasi dan memastikan kepatuhan administrasi terhadap Standard Operating Procedure (SOP)",
         "Bertugas sebagai koordinator komunikasi dan dukungan operasional pimpinan",
       ],
-    },
-    {
-      role: "Sekretaris - Himpunan Mahasiswa Jurusan Ilmu Al-Quran dan Tasir",
-      company: "IAIN Palangka Raya",
-      start: "2018",
-      end: "2019",
-      bullets: [
-        "Mengelola Sistem E-Arsip Digital terpusat serta bertanggung jawab atas notulensi rapat dan kerahasiaan data",
-        "Menangani seluruh Korespondensi Resmi organisasi dan memastikan kepatuhan administrasi terhadap Standard Operating Procedure (SOP)",
-        "Bertugas sebagai koordinator komunikasi dan dukungan operasional pimpinan",
-      ],
-    },
+    }
   ] as Experience[],
   education: [
     {
