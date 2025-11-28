@@ -42,21 +42,12 @@ export const cvData = {
   },
   skills: [
     {
-      category: "Administrasi & Perangkat Lunak",
       items: [
         "Entri Data & Pengolahan Data",
         "Pembukuan & Pelaporan Keuangan Dasar",
         "Manajemen Inventaris & Pengarsipan Digital",
         "Microsoft Office (Excel, Word, PowerPoint)",
         "Canva",
-      ],
-    },
-    {
-      category: "Interpersonal",
-      items: [
-        "Komunikasi Efektif & Kerja Sama Tim",
-        "Manajemen Waktu & Pemecahan Masalah",
-        "Fleksibilitas & Kolaborasi",
       ],
     },
   ],
