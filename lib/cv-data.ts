@@ -36,7 +36,7 @@ export const cvData = {
     "Profesional administrasi yang terorganisir, teliti, dan mandiri dengan pengalaman 3 tahun dalam mendukung kelancaran operasional bisnis. Mahir dalam berbagai tugas administrasi kunci, termasuk manajemen data keuangan, entri data, pelaporan, dan manajemen inventaris.",
   contacts: {
     email: "nilawatinew786@gmail.com",
-    instagram: "https://www.instagram.com/_nilawtt/",
+    instagram: "https://www.instagram.com/_nilawtt?utm_source=qr&igsh=ZDJra2NlMjdyY3ls",
     phone: "0877-9630-1889",
     linkedin: "https://www.linkedin.com/in/nila-wati786",
   },
