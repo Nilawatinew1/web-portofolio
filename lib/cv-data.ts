@@ -171,7 +171,7 @@ export const cvData = {
         "Dashboard ini bertujuan untuk mendemonstrasikan data-data transaksi jual-beli dapat diubah menjadi wawasan penting dalam pengambilan keputusan usaha",
       image: "/images/dashboard-sinar.jpg",
       alt: "Dashboard",
-      link: "https://www.linkedin.com/posts/nila-wati786_end-to-end-worklow-activity-7397501946632265729-B8Og?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFIgAiIB6l1SQkTA4MT6ICC32jAc7SO21hw",
+      link: "https://docs.google.com/spreadsheets/d/1z0vzn2zqNRAJbeMGxzUoCMnrx_yld5cX/edit?usp=sharing&ouid=105377082677061839453&rtpof=true&sd=true",
     },  
      {
       title: "Video Pegawai Toko - Artificial Intelligence",
