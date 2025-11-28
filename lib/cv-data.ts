@@ -76,14 +76,14 @@ export const cvData = {
   ] as Experience[],
   education: [
     {
-      degree: "S1 - Program Studi Ilmu Al-Quran dan Tafsir",
-      school: "Institut Agama Islam Negeri Palangka Raya",
+      degree: "S1 - Institut Agama Islam Negeri Palangka Raya",
+      school: "Ilmu Al-Quran dan Tasir",
       start: "2018",
       end: "2022",
     },
     {
-      degree: "SMA - Ilmu Pengetahuan Sosial",
-      school: "SMA Muhammadiyah 1 Palangka Raya",
+      degree: "SMA - SMA Muhammadiyah 1 Palangka Raya",
+      school: "Ilmu Pengetahuan Sosial",
       start: "2015",
       end: "2018",
     },
