@@ -53,12 +53,6 @@ export function HeroSection() {
                 Lihat Proyek <ArrowDownRight className="ml-2 size-4" />
               </a>
             </Button>
-            <Button variant="outline" asChild>
-              <a href={cvData.contacts.linkedin} target="_blank" rel="noreferrer">
-                <Linkedin className="mr-2 size-4" />
-                LinkedIn
-              </a>
-            </Button>
             <Button variant="secondary" asChild>
               <a href="/cv-nila-wati.pdf" download>
                 <Download className="mr-2 size-4" />
