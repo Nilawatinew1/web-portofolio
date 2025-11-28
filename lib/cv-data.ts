@@ -76,6 +76,42 @@ export const cvData = {
         "Menangani korespondensi dan pelayanan pelanggan (daring/luring) untuk memastikan kepuasan dan loyalitas.",
       ],
     },
+    {
+      role: "Sekretaris - Himpunan Mahasiswa Jurusan IQT",
+      company: "IAIN Palangka Raya",
+      start: "20218",
+      end: "2019",
+      bullets: [
+        "Mengelola transaksi harian/mingguan, laporan utang-piutang, dan menyediakan data akurat untuk keputusan finansial.",
+        "Mengoptimalkan alur kerja dari penyediaan, pengecekan, hingga pengiriman barang untuk efisiensi proses.",
+        "Menganalisis data stok untuk menjaga ketersediaan produk dan memberi rekomendasi pembelian.",
+        "Menangani korespondensi dan pelayanan pelanggan (daring/luring) untuk memastikan kepuasan dan loyalitas.",
+      ],
+    },
+    {
+      role: "Divisi Pendidikan - Himpunan Mahasiswa Program Studi IQT",
+      company: "IAIN Palangka Raya",
+      start: "2019",
+      end: "2020",
+      bullets: [
+        "Mengelola transaksi harian/mingguan, laporan utang-piutang, dan menyediakan data akurat untuk keputusan finansial.",
+        "Mengoptimalkan alur kerja dari penyediaan, pengecekan, hingga pengiriman barang untuk efisiensi proses.",
+        "Menganalisis data stok untuk menjaga ketersediaan produk dan memberi rekomendasi pembelian.",
+        "Menangani korespondensi dan pelayanan pelanggan (daring/luring) untuk memastikan kepuasan dan loyalitas.",
+      ],
+    },
+    {
+      role: "Bendahara - Senat Mahasiswa FUAD",
+      compan: "IAIN Palangka Raya",
+      start: "2020",
+      end: "2021",
+      bullets: [
+        "Mengelola transaksi harian/mingguan, laporan utang-piutang, dan menyediakan data akurat untuk keputusan finansial.",
+        "Mengoptimalkan alur kerja dari penyediaan, pengecekan, hingga pengiriman barang untuk efisiensi proses.",
+        "Menganalisis data stok untuk menjaga ketersediaan produk dan memberi rekomendasi pembelian.",
+        "Menangani korespondensi dan pelayanan pelanggan (daring/luring) untuk memastikan kepuasan dan loyalitas.",
+      ],
+    },
   ] as Experience[],
   education: [
     {
