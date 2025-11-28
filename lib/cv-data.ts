@@ -153,7 +153,7 @@ export const cvData = {
         "Video ini menggambarkan pekerjaan saya sehari-hari yang dibuat menggunakan video generatif AI.",
       impact:
         "Proyek ini menunjukkan adaptif dan mahir menggunakan alat AI untuk menghasilkan konten visual berkualitas tinggi.",
-      image: "/images/generatif-AI.png",
+      image: "/images/generatif-AI.jpg",
       alt: "Generatif",
       link: "https://www.linkedin.com/posts/nila-wati786_baru-coba-membuat-video-menggunakan-ai-untuk-activity-7395339114277007360-m3WT?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFIgAiIB6l1SQkTA4MT6ICC32jAc7SO21hw",
     }  
