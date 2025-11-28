@@ -136,11 +136,9 @@ export const cvData = {
   ] as Certification[],
   projects: [
     {
-      title: "Cleaning Data - Ousean Group",
+      title: "Data Analyst with Excel - Ousean Group",
       summary:
-        "Menyelesaikan final project dari Ousean Group dengan menganalisis data peserta magang. Proses mencakup data cleaning (duplikasi, format tanggal, kapitalisasi), analisis statistik deskriptif dengan Excel (COUNTIF, PivotTable), hingga visualisasi data dan penyajian laporan di PowerPoint dan Canva.",
-      impact:
-        "Meningkatkan keterampilan analisis data, pembuatan insight visual, dan komunikasi.",
+        "Melakukan pembersihan data, pengolahan data dengan menganalisis statistik deskriptif, visualisasi data dan penyajian laporan",
       image: "/images/final-project-ousean.png",
       alt: "Laporan analisis data peserta magang menggunakan Excel dan visualisasi di PowerPoint",
       link: "https://www.linkedin.com/posts/nila-wati786_analisa-data-activity-7351070489806524418-eGsw?utm_source=share&utm_medium=member_desktop&rcm=ACoAADoZ7oIB21BETzxOr5fzD7OTMxKt_jSYcew",
