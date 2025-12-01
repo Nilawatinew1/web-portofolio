@@ -40,8 +40,8 @@ export function ContactSection() {
           </a>
         </Button>
         <Button asChild variant="outline">
-          <a href={instagram} target="_blank" rel="noreferrer">
-            <Instagram className="mr-2 size-4" /> WordPress
+          <a href={WordPress} target="_blank" rel="noreferrer">
+            <WordPress className="mr-2 size-4" /> WordPress
           </a>
         </Button>
       </div>
