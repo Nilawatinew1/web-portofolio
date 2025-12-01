@@ -17,7 +17,6 @@ export function ContactSection() {
     <section id="contact" className="mx-auto max-w-6xl px-4 py-12">
       <h2 className="text-2xl font-semibold">Kontak</h2>
       <p className="mt-2 max-w-2xl leading-relaxed text-muted-foreground">
-        Siap berkontribusi pada tim dan proses bisnis Anda. Silakan hubungi saya melalui pilihan di bawah.
       </p>
       <div className="mt-6 flex flex-wrap items-center gap-3">
         <Button asChild>
@@ -38,6 +37,11 @@ export function ContactSection() {
         <Button asChild variant="outline">
           <a href={instagram} target="_blank" rel="noreferrer">
             <Instagram className="mr-2 size-4" /> Instagram
+          </a>
+        </Button>
+        <Button asChild variant="outline">
+          <a href={instagram} target="_blank" rel="noreferrer">
+            <Instagram className="mr-2 size-4" /> WordPress
           </a>
         </Button>
       </div>
