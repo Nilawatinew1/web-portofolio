@@ -47,7 +47,7 @@ export function ProjectsSection() {
               </CardHeader>
               <CardContent className="space-y-3">
                 <p className="leading-relaxed">{p.summary}</p>
-                <p className="text-sm text-muted-foreground">
+                <p className="text-sm text-muted-foreground">Dampak: {p.impact}</p>
                 <div className="relative h-48 w-full overflow-hidden rounded-md border">
                   <img
                     src={p.image || "/placeholder.svg?height=140&width=480&query=ilustrasi%20proyek"}
