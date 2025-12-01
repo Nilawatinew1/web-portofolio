@@ -37,7 +37,6 @@ export function ProjectsSection() {
     <section id="projects" className="mx-auto max-w-6xl px-4 py-12">
       <h2 className="text-2xl font-semibold">Proyek & Studi Kasus</h2>
       <p className="mt-2 text-sm text-muted-foreground">
-        Contoh karya dan inisiatif yang merepresentasikan keahlian administrasi dan operasional.
       </p>
       <div className="mt-6 grid grid-cols-1 gap-4 md:grid-cols-3">
         {cvData.projects.map((p, i) => (
@@ -48,7 +47,7 @@ export function ProjectsSection() {
               </CardHeader>
               <CardContent className="space-y-3">
                 <p className="leading-relaxed">{p.summary}</p>
-                <p className="text-sm text-muted-foreground">Dampak: {p.impact}</p>
+                <p className="text-sm text-muted-foreground">
                 <div className="relative h-48 w-full overflow-hidden rounded-md border">
                   <img
                     src={p.image || "/placeholder.svg?height=140&width=480&query=ilustrasi%20proyek"}
