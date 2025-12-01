@@ -6,7 +6,7 @@ import { Mail, Phone, Linkedin, Instagram } from "lucide-react"
 
 export function ContactSection() {
   const { toast } = useToast()
-  const { email, phone, linkedin, instagram } = cvData.contacts
+  const { email, phone, linkedin, instagram, WordPress } = cvData.contacts
 
   function copy(text: string, label: string) {
     navigator.clipboard.writeText(text)
