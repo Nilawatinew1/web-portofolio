@@ -2,7 +2,7 @@
 import { cvData } from "@/lib/cv-data"
 import { Button } from "@/components/ui/button"
 import { useToast } from "@/hooks/use-toast"
-import { Mail, Phone, Linkedin, Instagram } from "lucide-react"
+import { Mail, Phone, Linkedin, Instagram, PenSquare } from "lucide-react"
 
 export function ContactSection() {
   const { toast } = useToast()
@@ -41,7 +41,7 @@ export function ContactSection() {
         </Button>
         <Button asChild variant="outline">
           <a href={WordPress} target="_blank" rel="noreferrer">
-            <WordPress className="mr-2 size-4" /> WordPress
+            <PenSquare className="mr-2 size-4" /> WordPress
           </a>
         </Button>
       </div>
