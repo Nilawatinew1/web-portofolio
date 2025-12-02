@@ -53,12 +53,6 @@ export function HeroSection() {
                 Lihat Proyek <ArrowDownRight className="ml-2 size-4" />
               </a>
             </Button>
-            <Button variant="secondary" asChild>
-              <a href="/cv-nila-wati.pdf" download>
-                <Download className="mr-2 size-4" />
-                Download CV
-              </a>
-            </Button>
           </div>
           <p className="mt-4 text-lg text-muted-foreground">
             Fokus: <span className="font-medium text-foreground">{typed}</span>
