@@ -19,7 +19,7 @@ export function ExperienceSection() {
               </p>
             </div>
 
-            <Accordion type="single" collapsible className="mt-2">
+            <Accordion type="single" collapsible className="mt-1">
               <AccordionItem value="details">
                 <AccordionTrigger className="text-sm">Rincian Tanggung Jawab</AccordionTrigger>
                 <AccordionContent>
