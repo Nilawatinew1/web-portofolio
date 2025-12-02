@@ -60,7 +60,7 @@ export function HeroSection() {
               </a>
             </Button>
           </div>
-          <p className="mt-16 text-sm text-muted-foreground">
+          <p className="mt-16 text-lg text-muted-foreground">
             Fokus: <span className="font-medium text-foreground">{typed}</span>
           </p>
         </div>
