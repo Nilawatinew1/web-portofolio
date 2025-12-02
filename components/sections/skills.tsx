@@ -21,7 +21,7 @@ export function SkillsSection() {
         <h2 className="text-2xl font-semibold text-pretty">Keterampilan</h2>
       </header>
 
-      <div className="mt-4 flex flex-wrap gap-2">
+      <div className="mt-2 flex flex-wrap gap-2">
         {categories.map((c) => (
           <button
             key={c}
@@ -43,7 +43,7 @@ export function SkillsSection() {
               <CardTitle className="text-base">{item}</CardTitle>
             </CardHeader>
             <CardContent>
-              <Badge variant="secondary" className="rounded-md">
+              <Badge variant="secondary" className="rounded-md text-base">
                 {category}
               </Badge>
             </CardContent>
