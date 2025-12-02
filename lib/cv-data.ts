@@ -78,7 +78,7 @@ export const cvData = {
     },
     {
       role: "Bendahara - Senat Mahasiswa Fakultas Ushuluddin Adab dan Dakwah",
-      compan: "IAIN Palangka Raya",
+      company: "IAIN Palangka Raya",
       start: "2020",
       end: "2021",
       bullets: [
@@ -112,14 +112,14 @@ export const cvData = {
   ] as Experience[],
   education: [
     {
-      degree: "S1 - Program Studi Ilmu Al-Quran dan Tafsir",
-      school: "Institut Agama Islam Negeri Palangka Raya",
+      degree: "S1 - Institut Agama Islam Negeri Palangka Raya",
+      school: "Program Studi Ilmu Al-Quran dan Tafsir",
       start: "2018",
       end: "2022",
     },
     {
-      degree: "SMA - Ilmu Pengetahuan Sosial",
-      school: "SMA Muhammadiyah 1 Palangka Raya",
+      degree: "SMA - SMA Muhammadiyah 1 Palangka Raya",
+      school: "Ilmu Pengetahuan Sosial",
       start: "2015",
       end: "2018",
     },
@@ -162,6 +162,7 @@ export const cvData = {
       title: "Infografis Etika Digital — Canva Camp",
       summary:
         "Final project dari Canva Camp berupa infografis bertema etika digital",
+      image: "/images/etika-digital.png",
       alt: "Infografis Etika Digital: Jadi Pengguna Cerdas di Dunia Maya",
       link: "https://www.linkedin.com/posts/nila-wati786_halooo-ini-adalah-final-project-dari-canva-activity-7347804955061211136-nLbA?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFIgAiIB6l1SQkTA4MT6ICC32jAc7SO21hw",
     },
