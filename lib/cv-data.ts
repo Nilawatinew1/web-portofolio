@@ -20,6 +20,12 @@ export type Certification = {
   date: string
 }
 
+export type Achievement = {
+  title: string
+  organization: string
+  year: string
+}
+
 export type Project = {
   title: string
   summary: string
@@ -134,6 +140,23 @@ export const cvData = {
     { title: "Kelas Karir: Microsoft Excel untuk Pencatatan Keuangan Dasar", date: "Juli 2025" },
     { title: "Dicoding Indonesia: AI Praktis untuk Produktivitas", date: "Juni 2025" },
   ] as Certification[],
+  achievements: [
+    { 
+        title: "Peringkat Terbaik - Program Administrasi Data", 
+        organization: "DQLab Academy", 
+        year: "2024" 
+    },
+    { 
+        title: "Finalis Lomba Infografis Nasional", 
+        organization: "Canva Camp", 
+        year: "2023" 
+    },
+    { 
+        title: "Penghargaan Karyawan Teladan (Quarter 3)", 
+        organization: "Toko Kilometer 20", 
+        year: "2023" 
+    },
+    ] as Achievement[],
   projects: [
     {
       title: "Data Analyst with Excel - Ousean Group",

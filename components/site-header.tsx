@@ -11,6 +11,7 @@ const nav = [
   { href: "#projects", label: "Proyek" },
   { href: "#education", label: "Pendidikan" },
   { href: "#certs", label: "Sertifikasi" },
+  { href: "#achievements", label: "Pencapaian" },
   { href: "#contact", label: "Kontak" },
 ]
 

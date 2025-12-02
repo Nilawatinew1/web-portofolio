@@ -3,6 +3,7 @@ import { HeroSection } from "@/components/sections/hero"
 import { SkillsSection } from "@/components/sections/skills"
 import { ExperienceSection } from "@/components/sections/experience"
 import { ProjectsSection } from "@/components/sections/projects"
+import { AchievementsSection } from "@/components/sections/achievements"
 import { EducationSection } from "@/components/sections/education"
 import { CertificationsSection } from "@/components/sections/certifications"
 import { ContactSection } from "@/components/sections/contact"
@@ -17,6 +18,7 @@ export default function Page() {
       <ProjectsSection />
       <EducationSection />
       <CertificationsSection />
+      <AchievementsSection />
       <ContactSection />
       <footer className="border-t py-8 text-center text-sm text-muted-foreground">
         © {new Date().getFullYear()} Nila Wati. Dibuat dengan Next.js & shadcn/ui.
