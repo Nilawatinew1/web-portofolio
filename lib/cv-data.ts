@@ -142,21 +142,16 @@ export const cvData = {
   ] as Certification[],
   achievements: [
     { 
-        title: "Peringkat Terbaik - Program Administrasi Data", 
-        organization: "DQLab Academy", 
-        year: "2024" 
+        title: "Peserta Kompetisi Kaligrafi Kategori Naskah", 
+        organization: "MTQ ke-56 Kotawaringin Timur", 
+        year: "2019" 
     },
     { 
-        title: "Finalis Lomba Infografis Nasional", 
-        organization: "Canva Camp", 
+        title: "Juara Tim Hackathon KomDigi x DQLab 2025", 
+        organization: "Talenta Digital Komdigi RI", 
         year: "2023" 
     },
-    { 
-        title: "Penghargaan Karyawan Teladan (Quarter 3)", 
-        organization: "Toko Kilometer 20", 
-        year: "2023" 
-    },
-    ] as Achievement[],
+  ] as Achievement[],
   projects: [
     {
       title: "Data Analyst with Excel - Ousean Group",
