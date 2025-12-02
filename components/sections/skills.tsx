@@ -16,7 +16,7 @@ export function SkillsSection() {
   }, [cat])
 
   return (
-    <section id="skills" className="mx-auto max-w-6xl px-4 py-12">
+    <section id="skills" className="mx-auto max-w-6xl px-4 pt-4 pb-12">
       <header className="flex items-center justify-between gap-4">
         <h2 className="text-2xl font-semibold text-pretty">Keterampilan</h2>
       </header>
