@@ -38,7 +38,7 @@ export const cvData = {
   name: "Nila Wati",
   role: "Karyawan Administrasi & Operasional Toko",
   summary:
-    "Profesional administrasi dan operasional toko dengan pengalaman tiga tahun. Berfokus pada manajemen data yang akurat dan implementasi alur kerja efisien untuk mendukung kelancaran seluruh operasional bisnis di lingkungan ritel",
+    "Profesional administrasi dan operasional toko dengan pengalaman tiga tahun. Berfokus pada manajemen data yang akurat dan implementasi alur kerja efisien untuk mendukung kelancaran seluruh operasional bisnis di lingkungan ritel. *Anda dapat menghubungi saya jika ingin melihat portofolio kerja saya.",
   contacts: {
     email: "nilawatinew786@gmail.com",
     instagram: "https://www.instagram.com/_nilawtt?utm_source=qr&igsh=ZDJra2NlMjdyY3ls",
