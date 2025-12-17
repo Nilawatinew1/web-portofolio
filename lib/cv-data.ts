@@ -50,13 +50,11 @@ export const cvData = {
     {
       category: "Teknis",
       items: [
-        "Entri Data",
         "Pengolahan Data",
         "Pelaporan Keuangan Dasar",
         "Manajemen Inventaris",
         "Pengarsipan Digital",
-        "Microsoft Office - Excel, Word, PowerPoint",
-        "Canva",
+        "Visualisasi Data",
       ],
     },
     {
@@ -64,8 +62,8 @@ export const cvData = {
       items: [
         "Kerja Sama Tim",
         "Manajemen Waktu",
+        "Ketelitian (Attention to Detail)",
         "Pemecahan Masalah",
-        "Fleksibilitas",
       ],
     },
   ],
