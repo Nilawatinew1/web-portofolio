@@ -43,7 +43,7 @@ export function HeroSection() {
     <section id="about" className="relative isolate">
       <div className="mx-auto grid max-w-6xl grid-cols-1 gap-8 px-4 py-12 md:grid-cols-[2fr_1fr] md:items-center md:py-16">
         <div className="order-2 md:order-1">
-          <p className="text-base text-muted-foreground">Halo, saya</p>
+          <p className="text-base text-muted-foreground">Selamat Datang di Portofolio Digital</p>
           <h1 className="text-pretty text-4xl font-semibold leading-tight sm:text-5xl">{cvData.name}</h1>
           <p className="mt-2 text-balance text-primary font-medium">{cvData.role}</p>
           <p className="mt-4 max-w-2xl leading-relaxed">{cvData.summary}</p>
