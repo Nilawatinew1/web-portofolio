@@ -67,7 +67,7 @@ export const cvData = {
       ],
     },
   ],
-  experience: [
+  Workexperience: [
     {
       role: "Karyawan Administrasi dan Operasional Toko",
       company: "Toko Kilometer 20, Kota Palangka Raya",
@@ -80,6 +80,8 @@ export const cvData = {
         "Menangani korespondensi dan pelayanan pelanggan (daring/luring) untuk memastikan kepuasan dan loyalitas.",
       ],
     },
+  ] as Experience[],
+    Organizationexperience: [
     {
       role: "Bendahara - Senat Mahasiswa Fakultas Ushuluddin Adab dan Dakwah",
       company: "IAIN Palangka Raya",
