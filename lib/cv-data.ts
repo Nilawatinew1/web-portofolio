@@ -155,7 +155,7 @@ export const cvData = {
   adminprojects: [
     {
       title: "Laporan Administrasi Mega Abadi",
-      image: "/images/Laporan-Admin.jpg",
+      image: "/images/laporan.jpg",
       alt: "Laporan Administrasi Mega Abadi",
       link: "https://www.linkedin.com/posts/nila-wati786_laporan-admin-activity-7406501018177302528-DFr3?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFIgAiIB6l1SQkTA4MT6ICC32jAc7SO21hw",
     },
