@@ -2,13 +2,11 @@
 import { cvData } from "@/lib/cv-data"
 import { Button } from "@/components/ui/button"
 import { useToast } from "@/hooks/use-toast"
-import { Mail, Phone, Linkedin, Instagram, PenSquare, MessageCircle } from "lucide-react"
+import { Mail, Phone, Linkedin, Instagram, PenSquare } from "lucide-react"
 
 export function ContactSection() {
   const { toast } = useToast()
   const { email, phone, linkedin, instagram, WordPress } = cvData.contacts
-  const waMessage = "Halo Nila Wati, saya melihat portofolio Anda dan ingin berdiskusi lebih lanjut."
-  const waUrl = `https://wa.me/${phone.replace(/[^0-9]/g, "")}?text=${encodeURIComponent(waMessage)}`
 
   function copy(text: string, label: string) {
     navigator.clipboard.writeText(text)
@@ -16,19 +14,19 @@ export function ContactSection() {
   }
 
   return (
-    <section id="contact" className="mx-auto max-w-6xl px-4 py-16">
-      <h2 className="text-3xl font-bold mb-4">Kontak</h2>
+    <section id="contact" className="mx-auto max-w-6xl px-4 py-12">
+      <h2 className="text-2xl font-semibold">Kontak</h2>
       <p className="mt-2 max-w-2xl leading-relaxed text-muted-foreground">
       </p>
-      <div className="mt-8 flex flex-wrap items-center gap-4">
-        <Button asChild className="h-12 px-8 text-base">
+      <div className="mt-6 flex flex-wrap items-center gap-3">
+        <Button asChild>
           <a href={`mailto:${email}?subject=Halo%20Nila%20Wati`}>
-            <Mail className="mr-2 size-5" /> Email
+            <Mail className="mr-2 size-4" /> Email
           </a>
         </Button>
-        <Button asChild variant="secondary" className="h-12 px-8 text-base">
-          <a href={waUrl} target="_blank" rel="noreferrer">
-            <MessageCircle className="mr-2 size-5" /> WhatsApp
+        <Button asChild variant="secondary">
+          <a href={`tel:${phone.replace(/[^0-9+]/g, "")}`}>
+            <Phone className="mr-2 size-4" /> Telepon/WA
           </a>
         </Button>
         <Button asChild variant="outline">
