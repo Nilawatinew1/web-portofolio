@@ -35,29 +35,88 @@ function TiltCard(props: React.HTMLAttributes<HTMLDivElement>) {
 export function ProjectsSection() {
   return (
     <section id="projects" className="mx-auto max-w-6xl px-4 py-12">
-      <h2 className="text-2xl font-semibold">Proyek & Studi Kasus</h2>
-      <p className="mt-2 text-sm text-muted-foreground">
-      </p>
-      <div className="mt-6 grid grid-cols-1 gap-4 md:grid-cols-3">
-        {cvData.projects.map((p, i) => (
+      {/* 1. SEKSI PROYEK ADMINISTRASI */}
+      <h2 className="text-2xl font-semibold mb-6">Proyek Administrasi</h2>
+      <div className="grid grid-cols-1 gap-4 md:grid-cols-3 mb-12">
+        {(cvData as any).adminprojects?.map((p: any, i: number) => (
           <TiltCard key={i}>
-            <Card className="h-full">
+            <Card className="h-full flex flex-col">
               <CardHeader>
                 <CardTitle className="text-lg">{p.title}</CardTitle>
               </CardHeader>
-              <CardContent className="space-y-3">
-                <p className="leading-relaxed">{p.summary}</p>
-                <p className="text-sm text-muted-foreground"> {p.impact}</p>
-                <div className="relative h-48 w-full overflow-hidden rounded-md border">
+              <CardContent className="space-y-3 flex-grow flex flex-col">
+                <div className="relative h-48 w-full overflow-hidden rounded-md border mt-auto">
                   <img
-                    src={p.image || "/placeholder.svg?height=140&width=480&query=ilustrasi%20proyek"}
-                    alt={p.alt || `Ilustrasi untuk ${p.title}`}
+                    src={p.image || "/placeholder.svg"}
+                    alt={p.alt || p.title}
                     className="h-full w-full object-cover object-center"
                   />
                 </div>
                 {p.link && (
                   <Link href={p.link} target="_blank" rel="noopener noreferrer">
-                    <Button variant="outline" size="sm" className="w-full">
+                    <Button variant="outline" size="sm" className="w-full mt-2">
+                      <ExternalLink className="mr-2 h-4 w-4" />
+                      Lihat Proyek
+                    </Button>
+                  </Link>
+                )}
+              </CardContent>
+            </Card>
+          </TiltCard>
+        ))}
+      </div>
+
+      {/* 2. SEKSI PROYEK ANALISIS DATA */}
+      <h2 className="text-2xl font-semibold mb-6">Proyek Analisa Data</h2>
+      <div className="grid grid-cols-1 gap-4 md:grid-cols-3 mb-12">
+        {(cvData as any).dataprojects?.map((p: any, i: number) => (
+          <TiltCard key={i}>
+            <Card className="h-full flex flex-col">
+              <CardHeader>
+                <CardTitle className="text-lg">{p.title}</CardTitle>
+              </CardHeader>
+              <CardContent className="space-y-3 flex-grow flex flex-col">
+                <div className="relative h-48 w-full overflow-hidden rounded-md border mt-auto">
+                  <img
+                    src={p.image || "/placeholder.svg"}
+                    alt={p.alt || p.title}
+                    className="h-full w-full object-cover object-center"
+                  />
+                </div>
+                {p.link && (
+                  <Link href={p.link} target="_blank" rel="noopener noreferrer">
+                    <Button variant="outline" size="sm" className="w-full mt-2">
+                      <ExternalLink className="mr-2 h-4 w-4" />
+                      Lihat Proyek
+                    </Button>
+                  </Link>
+                )}
+              </CardContent>
+            </Card>
+          </TiltCard>
+        ))}
+      </div>
+
+      {/* 3. SEKSI VISUALISASI INFORMASI */}
+      <h2 className="text-2xl font-semibold mb-6">Visualisasi Informasi</h2>
+      <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
+        {(cvData as any).visualisasiprojects?.map((p: any, i: number) => (
+          <TiltCard key={i}>
+            <Card className="h-full flex flex-col">
+              <CardHeader>
+                <CardTitle className="text-lg">{p.title}</CardTitle>
+              </CardHeader>
+              <CardContent className="space-y-3 flex-grow flex flex-col">
+                <div className="relative h-48 w-full overflow-hidden rounded-md border mt-auto">
+                  <img
+                    src={p.image || "/placeholder.svg"}
+                    alt={p.alt || p.title}
+                    className="h-full w-full object-cover object-center"
+                  />
+                </div>
+                {p.link && (
+                  <Link href={p.link} target="_blank" rel="noopener noreferrer">
+                    <Button variant="outline" size="sm" className="w-full mt-2">
                       <ExternalLink className="mr-2 h-4 w-4" />
                       Lihat Proyek
                     </Button>
