@@ -15,7 +15,7 @@ export function ContactSection() {
       <div className="flex flex-wrap items-center gap-4">
         {/* EMAIL */}
         <Button asChild className="h-12 px-8 text-base shadow-sm">
-          <a href={"mailto:" + email}>
+          <a href="mailto:nilawatinew786@gmail.com">
             <Mail className="mr-2 size-5" /> Email
           </a>
         </Button>
