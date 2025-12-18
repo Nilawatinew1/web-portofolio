@@ -41,13 +41,13 @@ export function HeroSection() {
 
   return (
     <section id="about" className="relative isolate">
-      <div className="mx-auto grid max-w-6xl grid-cols-1 gap-8 px-4 py-12 md:grid-cols-[2fr_1fr] md:items-center md:py-16">
-        <div className="order-2 md:order-1">
+      <div className="mx-auto flex flex-col items-center lg:flex-row max-w-6xl gap-8 px-4 py-12 md:py-16">
+        <div className="order-2 lg:order-1 flex-1 text-center lg:text-left">
           <p className="text-base text-muted-foreground">Selamat Datang di Portofolio Digital</p>
           <h1 className="text-pretty text-4xl font-semibold leading-tight sm:text-5xl">{cvData.name}</h1>
           <p className="mt-2 text-balance text-primary font-medium">{cvData.role}</p>
           <p className="mt-4 max-w-2xl leading-relaxed">{cvData.summary}</p>
-          <div className="flex flex-wrap items-center gap-3">
+          <div className="flex flex-wrap items-center justify-center lg:justify-start gap-3">
             <Button asChild>
               <a href="#projects">
                 Lihat Proyek <ArrowDownRight className="ml-2 size-4" />
@@ -59,8 +59,8 @@ export function HeroSection() {
           </p>
         </div>
 
-        <div className="order-1 md:order-2">
-          <div className="ml-auto mr-0 size-56 overflow-hidden rounded-full bg-gradient-to-br from-[#00ACAC] to-teal-600 p-1 md:size-64 md:ml-8">
+        <div className="order-1 lg:order-2 flex justify-center w-full lg:w-auto">
+          <div className="size-56 overflow-hidden rounded-full bg-gradient-to-br from-[#00ACAC] to-teal-600 p-1 md:size-64">
             <div className="size-full overflow-hidden rounded-full">
               <img
                 src="/images/foto-profil-nila.png"
