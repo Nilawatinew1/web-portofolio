@@ -42,9 +42,8 @@ export const cvData = {
   contacts: {
     email: "nilawatinew786@gmail.com",
     instagram: "https://www.instagram.com/_nilawtt?utm_source=qr&igsh=ZDJra2NlMjdyY3ls",
-    phone: "0877-9630-1889",
+    phone: "+6287796301889",
     linkedin: "https://www.linkedin.com/in/nila-wati786",
-    WordPress: "https://nilamenulis.home.blog/",
   },
   skills: [
     {

@@ -1,8 +1,10 @@
 "use client"
+import { useState } from "react"
 import Link from "next/link"
 import { ThemeToggle } from "./theme-toggle"
 import { Button } from "./ui/button"
 import { cn } from "@/lib/utils"
+import { MoreVertical, X } from "lucide-react"
 
 const nav = [
   { href: "#about", label: "Tentang" },
@@ -16,34 +18,46 @@ const nav = [
 ]
 
 export function SiteHeader() {
+  const [isOpen, setIsOpen] = useState(false);
   return (
-    <header className="sticky top-0 z-50 bg-background/80 backdrop-blur supports-[backdrop-filter]:bg-background/60 border-b">
-      <nav className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
-        <Link href="#top" className="font-semibold tracking-tight text-pretty text-xl">
-          <span className="text-primary">Nila</span> Wati
-        </Link>
-        <div className="hidden md:flex items-center gap-2">
-          {nav.map((n) => (
-            <a
-              key={n.href}
-              href={n.href}
-              className={cn(
-                "rounded-md px-3 py-2 text-base hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring",
-              )}
-              aria-label={`Lompat ke ${n.label}`}
+  <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur">
+    <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4">
+      {/* Nama / Logo */}
+      <Link href="/" className="font-bold text-xl text-[#00ACAC]">
+        Nila Wati
+      </Link>
+
+      <div className="flex items-center gap-2">
+        {/* NAVIGASI: hidden di HP (kecuali isOpen), flex di Laptop (md:flex) */}
+        <nav className={cn(
+          "absolute left-0 top-16 w-full flex-col border-b bg-background p-4 gap-4 transition-all md:static md:flex md:w-auto md:flex-row md:border-none md:p-0 md:opacity-100",
+          isOpen ? "flex opacity-100" : "hidden opacity-0"
+        )}>
+          {nav.map((item) => (
+            <Link
+              key={item.href}
+              href={item.href}
+              onClick={() => setIsOpen(false)}
+              className="text-sm font-medium transition-colors hover:text-[#00ACAC]"
             >
-              {n.label}
-            </a>
+              {item.label}
+            </Link>
           ))}
-          <ThemeToggle />
-        </div>
-        <div className="md:hidden flex items-center gap-2">
-          <ThemeToggle />
-          <Button asChild size="sm" variant="outline">
-            <a href="#contact">Hubungi</a>
-          </Button>
-        </div>
-      </nav>
-    </header>
-  )
+        </nav>
+
+        <ThemeToggle />
+
+        {/* Tombol Titik Tiga (Hanya muncul di HP) */}
+        <Button 
+          variant="ghost" 
+          size="icon" 
+          className="md:hidden" 
+          onClick={() => setIsOpen(!isOpen)}
+        >
+          {isOpen ? <X className="size-5" /> : <MoreVertical className="size-5" />}
+        </Button>
+      </div>
+    </div>
+  </header>
+)
 }
