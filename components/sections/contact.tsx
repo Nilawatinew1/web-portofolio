@@ -14,14 +14,14 @@ export function ContactSection() {
       
       <div className="flex flex-wrap items-center gap-4">
         {/* EMAIL */}
-        <Button asChild className="h-12 px-8 text-base shadow-sm">
+        <Button asChild variant="outline" className="h-12 px-8 text-base border-2">
           <a href="mailto:nilawatinew786@gmail.com">
             <Mail className="mr-2 size-5" /> Email
           </a>
         </Button>
 
         {/* WHATSAPP/PHONE */}
-        <Button asChild variant="secondary" className="h-12 px-8 text-base shadow-sm">
+        <Button asChild variant="outline" className="h-12 px-8 text-base border-2">
           <a href={`https://wa.me/${phone.replace(/[^0-9]/g, "")}`} target="_blank" rel="noreferrer">
             <Phone className="mr-2 size-5" /> Telepon/WA
           </a>
