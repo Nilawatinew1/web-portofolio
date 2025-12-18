@@ -40,13 +40,6 @@ export function ContactSection() {
             <Instagram className="mr-2 size-5" /> Instagram
           </a>
         </Button>
-
-        {/* WORDPRESS */}
-        <Button asChild variant="outline" className="h-12 px-8 text-base border-2">
-          <a href={WordPress} target="_blank" rel="noreferrer">
-            <PenSquare className="mr-2 size-5" /> WordPress
-          </a>
-        </Button>
       </div>
     </section>
   )
