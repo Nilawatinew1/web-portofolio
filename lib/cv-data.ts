@@ -180,7 +180,7 @@ export const cvData = {
     },
     {
     title: "Indonesian Provincial Sentiment Tracker",
-    image: "/images/sentiment.png",
+    image: "/images/sentiment.jpg",
     alt: "Visualisasi Sentimen Masyarakat di Setiap Provinsi Indonesia",
     link: "https://www.linkedin.com/posts/nila-wati786_indonesia-sentiment-map-project-activity-7398531235465224192-gHsa?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFIgAiIB6l1SQkTA4MT6ICC32jAc7SO21hw",
   },
