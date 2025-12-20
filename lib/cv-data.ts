@@ -178,7 +178,13 @@ export const cvData = {
       alt: "Dashboard",
       link: "https://docs.google.com/spreadsheets/d/1z0vzn2zqNRAJbeMGxzUoCMnrx_yld5cX/edit?usp=sharing&ouid=105377082677061839453&rtpof=true&sd=true",
     },
-  ] as Project[],
+    {
+    title: "Indonesian Provincial Sentiment Tracker",
+    image: "/images/sentiment.jpg",
+    alt: "Visualisasi Sentimen Masyarakat di Setiap Provinsi Indonesia Menggunakan Power BI",
+    link: "https://www.linkedin.com/posts/nila-wati786_indonesian-provincial-sentiment-tracker-activity-7329046066038284288-3Y6N?utm_source=share&utm_medium=member_desktop&rcm=ACoAADoZ7oIB21BETzxOr5fzD7OTMxKt_jSYcew",
+  },
+] as Project[],
   visualisasiprojects: [
   {
       title: "Infografis Daya Saing Tenaga Kerja Indonesia",
@@ -191,6 +197,6 @@ export const cvData = {
       image: "/images/etika-digital.png",
       alt: "Infografis Etika Digital: Jadi Pengguna Cerdas di Dunia Maya",
       link: "https://www.linkedin.com/posts/nila-wati786_halooo-ini-adalah-final-project-dari-canva-activity-7347804955061211136-nLbA?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFIgAiIB6l1SQkTA4MT6ICC32jAc7SO21hw",
-    },  
+    },
   ] as Project[],
 }
