@@ -178,15 +178,15 @@ export const cvData = {
       alt: "Dashboard",
       link: "https://docs.google.com/spreadsheets/d/1z0vzn2zqNRAJbeMGxzUoCMnrx_yld5cX/edit?usp=sharing&ouid=105377082677061839453&rtpof=true&sd=true",
     },
-    {
-      title: "Indonesian Provincial Sentiment Tracker",
+    {    
+      title: "Visualisasi Sentimen Masyarakat di Setiap Provinsi Indonesia",
       image: "/images/sentiment.jpg",
-      alt: "Visualisasi Sentimen Masyarakat di Setiap Provinsi Indonesia",
+      alt: "Visualisasi",
       link: "https://www.linkedin.com/posts/nila-wati786_indonesia-sentiment-map-project-activity-7398531235465224192-gHsa?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFIgAiIB6l1SQkTA4MT6ICC32jAc7SO21hw",
-  },
+    },
 ] as Project[],
   visualisasiprojects: [
-  {
+   {
       title: "Infografis Daya Saing Tenaga Kerja Indonesia",
       image: "/images/tenaga-kerja-indonesia.png",
       alt: "Infografis daya saing tenaga kerja Indonesia di kawasan ASEAN",
