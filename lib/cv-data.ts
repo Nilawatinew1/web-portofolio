@@ -179,10 +179,10 @@ export const cvData = {
       link: "https://docs.google.com/spreadsheets/d/1z0vzn2zqNRAJbeMGxzUoCMnrx_yld5cX/edit?usp=sharing&ouid=105377082677061839453&rtpof=true&sd=true",
     },
     {
-    title: "Indonesian Provincial Sentiment Tracker",
-    image: "/images/sentiment.jpg",
-    alt: "Visualisasi Sentimen Masyarakat di Setiap Provinsi Indonesia",
-    link: "https://www.linkedin.com/posts/nila-wati786_indonesia-sentiment-map-project-activity-7398531235465224192-gHsa?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFIgAiIB6l1SQkTA4MT6ICC32jAc7SO21hw",
+      title: "Indonesian Provincial Sentiment Tracker",
+      image: "/images/sentiment.jpg",
+      alt: "Visualisasi Sentimen Masyarakat di Setiap Provinsi Indonesia",
+      link: "https://www.linkedin.com/posts/nila-wati786_indonesia-sentiment-map-project-activity-7398531235465224192-gHsa?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFIgAiIB6l1SQkTA4MT6ICC32jAc7SO21hw",
   },
 ] as Project[],
   visualisasiprojects: [
