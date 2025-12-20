@@ -179,12 +179,18 @@ export const cvData = {
       link: "https://docs.google.com/spreadsheets/d/1z0vzn2zqNRAJbeMGxzUoCMnrx_yld5cX/edit?usp=sharing&ouid=105377082677061839453&rtpof=true&sd=true",
     },
     {    
-      title: "Visualisasi Sentimen Masyarakat di Setiap Provinsi Indonesia",
-      image: "/images/sentiment.jpg",
-      alt: "Visualisasi",
+      title: " Indonesian Provincial Sentiment Tracker",
+      image: "/images/peta.jpg",
+      alt: "Peta Indonesia",
       link: "https://www.linkedin.com/posts/nila-wati786_indonesia-sentiment-map-project-activity-7398531235465224192-gHsa?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFIgAiIB6l1SQkTA4MT6ICC32jAc7SO21hw",
     },
-] as Project[],
+    {
+      title: "Dashboard Penjualan",
+      image: "/images/sales_dashboard.jpg",
+      alt: "sales",
+      link: "https://www.linkedin.com/posts/nila-wati786_end-to-end-worklow-activity-7397501946632265729-B8Og?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFIgAiIB6l1SQkTA4MT6ICC32jAc7SO21hw",
+    },
+  ] as Project[],
   visualisasiprojects: [
    {
       title: "Infografis Daya Saing Tenaga Kerja Indonesia",
@@ -198,5 +204,5 @@ export const cvData = {
       alt: "Infografis Etika Digital: Jadi Pengguna Cerdas di Dunia Maya",
       link: "https://www.linkedin.com/posts/nila-wati786_halooo-ini-adalah-final-project-dari-canva-activity-7347804955061211136-nLbA?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFIgAiIB6l1SQkTA4MT6ICC32jAc7SO21hw",
     },
-] as Project[],
+  ] as Project[],
 }
