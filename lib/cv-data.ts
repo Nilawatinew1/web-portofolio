@@ -181,8 +181,8 @@ export const cvData = {
     {
     title: "Indonesian Provincial Sentiment Tracker",
     image: "/images/sentiment.jpg",
-    alt: "Visualisasi Sentimen Masyarakat di Setiap Provinsi Indonesia Menggunakan Power BI",
-    link: "https://www.linkedin.com/posts/nila-wati786_indonesian-provincial-sentiment-tracker-activity-7329046066038284288-3Y6N?utm_source=share&utm_medium=member_desktop&rcm=ACoAADoZ7oIB21BETzxOr5fzD7OTMxKt_jSYcew",
+    alt: "Visualisasi Sentimen Masyarakat di Setiap Provinsi Indonesia",
+    link: "https://www.linkedin.com/posts/nila-wati786_indonesia-sentiment-map-project-activity-7398531235465224192-gHsa?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFIgAiIB6l1SQkTA4MT6ICC32jAc7SO21hw",
   },
 ] as Project[],
   visualisasiprojects: [
