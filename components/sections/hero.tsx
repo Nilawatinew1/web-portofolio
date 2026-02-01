@@ -37,7 +37,7 @@ function useTypewriter(words: string[], speed = 80, pause = 1200) {
 }
 
 export function HeroSection() {
-  const typed = useTypewriter(["Administrasi Data", "Manajemen Inventaris", "Microsoft Office", "Pengarsipan Digital", "Entri Data"])
+  const typed = useTypewriter(["Administrasi Perusahaan", "Manajemen Transaksi", "Menyusun Laporan Keuangan", "Pengarsipan Digital", "Konsultasi Produk"])
 
   return (
     <section id="about" className="relative isolate">
