@@ -36,7 +36,7 @@ export type Project = {
 
 export const cvData = {
   name: "Nila Wati",
-  role: "Profesional Administrasi & Operasional",
+  role: "Staf Administrasi & Koordinasi Operasional",
   summary:
     "Profesional administrasi dengan pengalaman lebih dari 3 tahun di industri ritel dan penjualan. Memiliki keahlian kuat dalam manajemen data, laporan keuangan, dan koordinasi operasional. Pengalaman di bidang sales telah mengasah kemampuan komunikasi interpersonal dan orientasi pada target, yang saya kombinasikan dengan ketelitian administratif untuk mendukung efisiensi alur kerja perusahaan",
   contacts: {
