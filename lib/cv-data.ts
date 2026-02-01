@@ -51,27 +51,37 @@ export const cvData = {
       items: [
         "Pengolahan Data",
         "Pelaporan Keuangan Dasar",
+        "Rekonsiliasi Kas",
         "Manajemen Inventaris",
-        "Pengarsipan Digital",
-        "Visualisasi Data",
+        "Pengoperasian Sistem POS",
       ],
     },
     {
       category: "Non-Teknis",
       items: [
-        "Kerjasama Tim",
+        "Komunikasi Interpersonal",
         "Manajemen Waktu",
-        "Ketelitian (Attention to Detail)",
+        "Ketelitian dan Akurasi",
         "Pemecahan Masalah",
+        "Kolaborasi Tim",
       ],
     },
   ],
   Workexperience: [
     {
+      role: "Sales Person Pusat Ponsel dan Laptop",
+      company: "PT. Media Group Internasional, Kota Palangka Raya",
+      start: "Des 2025",
+      end: "Sekarang",
+      bullets: [
+        "perlu diisi.",
+      ],
+    },
+    {
       role: "Karyawan Administrasi dan Operasional Toko",
       company: "Toko Kilometer 20, Kota Palangka Raya",
-      start: "2023",
-      end: "Sekarang",
+      start: "Des 2023",
+      end: "Des 2025",
       bullets: [
         "Mengelola transaksi harian/mingguan, laporan utang-piutang, dan menyediakan data akurat untuk keputusan finansial.",
         "Mengoptimalkan alur kerja dari penyediaan, pengecekan, hingga pengiriman barang untuk efisiensi proses.",
