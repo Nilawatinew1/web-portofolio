@@ -38,7 +38,7 @@ export const cvData = {
   name: "Nila Wati",
   role: "Profesional Administrasi & Operasional",
   summary:
-    "Berpengalaman 3 tahun dalam mengelola operasional ritel dan administrasi organisasi. Memiliki keahlian dalam manajemen inventaris, optimalisasi alur kerja, dan pelaporan keuangan yang akurat untuk mendukung pengambilan keputusan bisnis yang efisien",
+    "Profesional administrasi dengan pengalaman lebih dari 3 tahun di industri ritel dan penjualan. Memiliki keahlian kuat dalam manajemen data, laporan keuangan, dan koordinasi operasional. Pengalaman di bidang sales telah mengasah kemampuan komunikasi interpersonal dan orientasi pada target, yang saya kombinasikan dengan ketelitian administratif untuk mendukung efisiensi alur kerja perusahaan",
   contacts: {
     email: "nilawatinew786@gmail.com",
     instagram: "https://www.instagram.com/_nilawtt?utm_source=qr&igsh=ZDJra2NlMjdyY3ls",
