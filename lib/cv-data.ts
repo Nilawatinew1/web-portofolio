@@ -74,7 +74,7 @@ export const cvData = {
       start: "Des 2025",
       end: "Sekarang",
       bullets: [
-        "perlu diisi.",
+        "perlu diisi tes code baru.",
       ],
     },
     {
