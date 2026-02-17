@@ -97,8 +97,8 @@ export function ProjectsSection() {
         ))}
       </div>
 
-      {/* 3. SEKSI VISUALISASI INFORMASI */}
-      <h2 className="text-2xl font-semibold mb-6">Proyek Visualisasi Informasi</h2>
+      {/* 3. SEKSI DESAIN GRAFIS */}
+      <h2 className="text-2xl font-semibold mb-6">Proyek Desain Grafis</h2>
       <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
         {(cvData as any).visualisasiprojects?.map((p: any, i: number) => (
           <TiltCard key={i}>
