@@ -239,5 +239,11 @@ export const cvData = {
       alt: "dark coffe",
       link: "https://www.linkedin.com/posts/nila-wati786_sudah-akhir-tahun-jalanan-mulai-sepi-mungkin-activity-7406864358577823744-pi13?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFIgAiIB6l1SQkTA4MT6ICC32jAc7SO21hw"
     },
+    {
+      title: "Video Bekerja Sehari-hari",
+      image: "/images/generatif-AI.jpg",
+      alt: "Daily",
+      link: "https://www.linkedin.com/posts/nila-wati786_baru-coba-membuat-video-menggunakan-ai-untuk-activity-7395339114277007360-m3WT?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFIgAiIB6l1SQkTA4MT6ICC32jAc7SO21hw"
+    },
   ] as Project[],
 }
