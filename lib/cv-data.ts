@@ -177,7 +177,7 @@ export const cvData = {
     },
     {
       title: "Microsoft Excel untuk Pencatatan Keuangan Dasar - Kelas Karir",
-      image: "/images/excel.png",
+      image: "/images/excel.jpg",
       alt: "Excel Keuangan",
       link: "https://www.linkedin.com/posts/nila-wati786_mini-portofolio-activity-7340654058493366273-mM8N?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFIgAiIB6l1SQkTA4MT6ICC32jAc7SO21hw",
     },
