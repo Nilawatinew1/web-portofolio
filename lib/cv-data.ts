@@ -154,14 +154,19 @@ export const cvData = {
   ] as Certification[],
   achievements: [
     { 
+        title: "Certified International Specialist in Data Modelling ", 
+        organization: "PASAS Institute", 
+        year: "2026" 
+    },
+    { 
+        title: "Juara 2 Tim - Learning Path Data Analytics, Data Engineering, Machine Learning, dan Deep Learning", 
+        organization: "KomDigi x DQLab", 
+        year: "2025" 
+    },
+    { 
         title: "Peserta Kompetisi Kaligrafi Kategori Naskah", 
         organization: "MTQ ke-56 Kotawaringin Timur", 
         year: "2019" 
-    },
-    { 
-        title: "Juara Tim Hackathon KomDigi x DQLab 2025", 
-        organization: "Talenta Digital Komdigi RI", 
-        year: "2023" 
     },
   ] as Achievement[],
   adminprojects: [
