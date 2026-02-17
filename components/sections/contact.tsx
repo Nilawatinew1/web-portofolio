@@ -20,13 +20,6 @@ export function ContactSection() {
           </a>
         </Button>
 
-        {/* WHATSAPP/PHONE */}
-        <Button asChild variant="outline" className="h-12 px-8 text-base border-2">
-          <a href={`https://wa.me/${phone.replace(/[^0-9]/g, "")}`} target="_blank" rel="noreferrer">
-            <Phone className="mr-2 size-5" /> WhatsApp
-          </a>
-        </Button>
-
         {/* LINKEDIN */}
         <Button asChild variant="outline" className="h-12 px-8 text-base border-2">
           <a href={linkedin} target="_blank" rel="noreferrer">
