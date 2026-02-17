@@ -69,18 +69,21 @@ export const cvData = {
   ],
   Workexperience: [
     {
-      role: "Sales Person Pusat Ponsel dan Laptop",
+      role: "Sales Person",
       company: "PT. Media Group Internasional, Kota Palangka Raya",
       start: "Des 2025",
       end: "Sekarang",
       bullets: [
-        "perlu diisi tes code baru.",
+        "Mencatat dan mengelola transaksi penjualan menggunakan sistem Point-of-Sale (POS) secara akurat sebagai bagian dari administrasi operasional",
+        "Bekerja sama dengan tim dalam audit stok barang untuk memastikan kesesuaian dan keakuratan data inventaris",
+        "Mendukung kelancaran operasional harian melalui pengelolaan data transaksi, komunikasi pelanggan, dan administrasi layanan",
+        "Berkoordinasi dengan tim dalam kegiatan operasional dan promosi, serta melakukan tindak lanjut pelanggan untuk menjaga hubungan dan stabilitas operasional",
       ],
     },
     {
-      role: "Karyawan Administrasi dan Operasional Toko",
+      role: "Staff Administrasi & Operasional",
       company: "Toko Kilometer 20, Kota Palangka Raya",
-      start: "Des 2023",
+      start: "Jan 2023",
       end: "Des 2025",
       bullets: [
         "Mengelola transaksi harian/mingguan, laporan utang-piutang, dan menyediakan data akurat untuk keputusan finansial.",
@@ -110,7 +113,7 @@ export const cvData = {
       bullets: [
         "Merancang dan melaksanakan Program Edukatif seperti kajian atau Halaqah berbasis Ilmu Al-Qur'an dan Tafsir",
         "Mengkoordinasikan Sumber Daya Akademik seperti dosen atau pakar dan memfasilitasi kebutuhan Mentoring/Peer-Teaching untuk peningkatan kompetensi anggota",
-        "Melakukan Evaluasi Efektivitas Program secara berkala seperti menyusun Laporan Pertanggungjawaban (LPJ) sebagai dasar perbaikan strategis",
+        "Melakukan evaluasi program yang sedang/telah selesai berjalan secara berkala dengan menyusun Laporan Pertanggungjawaban (LPJ) sebagai dasar perbaikan strategis",
       ],
     },
     {
