@@ -170,6 +170,12 @@ export const cvData = {
   ] as Achievement[],
   adminprojects: [
     {
+      title: "Transformasi Administrasi Data",
+      image: "/images/transformasi.jpg",
+      alt: "transformasi",
+      link: "https://www.linkedin.com/posts/nila-wati786_admin-activity-7408699806723846144-BqVK?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFIgAiIB6l1SQkTA4MT6ICC32jAc7SO21hw",
+    },
+    {
       title: "Laporan Administrasi Mega Abadi",
       image: "/images/laporan.jpg",
       alt: "Laporan Administrasi Mega Abadi",
