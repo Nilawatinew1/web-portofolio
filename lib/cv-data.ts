@@ -233,5 +233,11 @@ export const cvData = {
       alt: "Infografis Etika Digital: Jadi Pengguna Cerdas di Dunia Maya",
       link: "https://www.linkedin.com/posts/nila-wati786_halooo-ini-adalah-final-project-dari-canva-activity-7347804955061211136-nLbA?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFIgAiIB6l1SQkTA4MT6ICC32jAc7SO21hw",
     },
+      {
+      title: "Video Iklan Dark Coffe",
+      image: "/images/dark.jpg",
+      alt: "dark coffe",
+      link: "https://www.linkedin.com/posts/nila-wati786_sudah-akhir-tahun-jalanan-mulai-sepi-mungkin-activity-7406864358577823744-pi13?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFIgAiIB6l1SQkTA4MT6ICC32jAc7SO21hw"
+    },
   ] as Project[],
 }
