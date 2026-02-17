@@ -51,7 +51,6 @@ export const cvData = {
       items: [
         "Pengolahan Data",
         "Pelaporan Keuangan Dasar",
-        "Rekonsiliasi Kas",
         "Manajemen Inventaris",
         "Pengoperasian Sistem POS",
       ],
@@ -175,6 +174,12 @@ export const cvData = {
       image: "/images/laporan.jpg",
       alt: "Laporan Administrasi Mega Abadi",
       link: "https://www.linkedin.com/posts/nila-wati786_laporan-admin-activity-7406501018177302528-DFr3?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFIgAiIB6l1SQkTA4MT6ICC32jAc7SO21hw",
+    },
+    {
+      title: "Microsoft Excel untuk Pencatatan Keuangan Dasar - Kelas Karir",
+      image: "/images/excel.png",
+      alt: "Excel Keuangan",
+      link: "https://www.linkedin.com/posts/nila-wati786_mini-portofolio-activity-7340654058493366273-mM8N?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFIgAiIB6l1SQkTA4MT6ICC32jAc7SO21hw",
     },
   ] as Project[],
   dataprojects: [
