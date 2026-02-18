@@ -50,19 +50,16 @@ export const cvData = {
       category: "Teknis",
       items: [
         "Pengolahan Data",
-        "Pelaporan Keuangan Dasar",
-        "Manajemen Inventaris",
+        "Manajemen Inventaris & Audit Stok",
         "Pengoperasian Sistem POS",
       ],
     },
     {
       category: "Non-Teknis",
       items: [
-        "Komunikasi Interpersonal",
         "Manajemen Waktu",
-        "Ketelitian dan Akurasi",
+        "Ketelitian terhadap Detail",
         "Pemecahan Masalah",
-        "Kolaborasi Tim",
       ],
     },
   ],
