@@ -38,7 +38,7 @@ export const cvData = {
   name: "Nila Wati",
   role: "Staff Administrasi & Koordinasi Operasional",
   summary:
-    "Profesional administrasi dengan pengalaman lebih dari 3 tahun di industri ritel dan penjualan. Memiliki keahlian kuat dalam manajemen data, laporan keuangan, dan koordinasi operasional. Pengalaman di bidang sales telah mengasah kemampuan komunikasi interpersonal dan orientasi pada target, yang saya kombinasikan dengan ketelitian administratif untuk mendukung efisiensi alur kerja perusahaan",
+    "Profesional administrasi dengan pengalaman lebih dari 3 tahun di industri ritel dan penjualan. Memiliki kemampuan dalam manajemen data, laporan keuangan dan koordinasi operasional. Pengalaman di bidang sales telah mengasah kemampuan komunikasi interpersonal dan orientasi pada target dengan kombinasi ketelitian administratif untuk mendukung efisiensi alur kerja perusahaan",
   contacts: {
     email: "nilawatinew786@gmail.com",
     instagram: "https://www.instagram.com/_nilawtt?utm_source=qr&igsh=ZDJra2NlMjdyY3ls",
@@ -68,11 +68,11 @@ export const cvData = {
       role: "Sales Person",
       company: "PT. Media Group Internasional, Kota Palangka Raya",
       start: "Des 2025",
-      end: "Sekarang",
+      end: "Feb 2026",
       bullets: [
         "Mencatat dan mengelola transaksi penjualan menggunakan sistem Point-of-Sale (POS) secara akurat sebagai bagian dari administrasi operasional",
         "Bekerja sama dengan tim dalam audit stok barang untuk memastikan kesesuaian dan keakuratan data inventaris",
-        "Mendukung kelancaran operasional harian melalui pengelolaan data transaksi, komunikasi pelanggan, dan administrasi layanan",
+        "Mendukung kelancaran operasional harian melalui pengelolaan data transaksi, komunikasi untuk membangun pemahaman tentang preferensi pelanggan, dan administrasi layanan",
         "Berkoordinasi dengan tim dalam kegiatan operasional dan promosi, serta melakukan tindak lanjut pelanggan untuk menjaga hubungan dan stabilitas operasional",
       ],
     },
@@ -140,13 +140,9 @@ export const cvData = {
   ] as Education[],
   certifications: [
     { title: "DQLab Academy: Bootcamp Data Analyst with Excel Batch 18", date: "Sedang Berjalan" },
-    { title: "Digital Talent Scholarship: Practical Real Business Application for Business Intelligence Analyst", date: "September 2025" },
     { title: "Kelas Karir: Pelatihan Excel Admin Perkantoran", date: "September 2025" },
     { title: "Digital Talent Scholarship: Fundamental of Data Analyst", date: "Agustus 2025" },
-    { title: "Universiti Kebangsaan Malaysia (UKM): Webinar Antarbangsa Ulama Nusantar ke 5", date: "Juli 2025" },
-    { title: "MySkill: Data Visualization with Microsoft Excel", date: "Juli 2025" },
     { title: "Kelas Karir: Microsoft Excel untuk Pencatatan Keuangan Dasar", date: "Juli 2025" },
-    { title: "Dicoding Indonesia: AI Praktis untuk Produktivitas", date: "Juni 2025" },
   ] as Certification[],
   achievements: [
     { 
@@ -179,13 +175,19 @@ export const cvData = {
       link: "https://www.linkedin.com/posts/nila-wati786_laporan-admin-activity-7406501018177302528-DFr3?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFIgAiIB6l1SQkTA4MT6ICC32jAc7SO21hw",
     },
     {
-      title: "Microsoft Excel untuk Pencatatan Keuangan Dasar - Kelas Karir",
+      title: "Microsoft Excel untuk Pencatatan Keuangan Dasar",
       image: "/images/excel.jpg",
       alt: "Excel Keuangan",
       link: "https://www.linkedin.com/posts/nila-wati786_mini-portofolio-activity-7340654058493366273-mM8N?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFIgAiIB6l1SQkTA4MT6ICC32jAc7SO21hw",
     },
   ] as Project[],
   dataprojects: [
+    {
+      title: "Dashboard Performa Sales Person dan Preferensi Pelanggan",
+      image: "/images/salesperson.jpg",
+      alt: "sales",
+      link: "https://www.linkedin.com/posts/nila-wati786_berikut-adalah-dashboard-yang-bersumber-dari-activity-7435222277467713536-T2L9?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFIgAiIB6l1SQkTA4MT6ICC32jAc7SO21hw",
+    },
     {
       title: "Data Analyst with Excel - Ousean Group",
       image: "/images/final-project-ousean.png",
