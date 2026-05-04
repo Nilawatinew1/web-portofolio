@@ -36,7 +36,6 @@ export type Project = {
 
 export const cvData = {
   name: "Nila Wati",
-  role: "Staff Administrasi & Koordinasi Operasional",
   summary:
     "Profesional administrasi dengan pengalaman lebih dari 3 tahun di industri ritel dan penjualan. Memiliki kemampuan dalam manajemen data, laporan keuangan dan koordinasi operasional. Pengalaman di bidang sales telah mengasah kemampuan komunikasi interpersonal dan orientasi pada target dengan kombinasi ketelitian administratif untuk mendukung efisiensi alur kerja perusahaan",
   contacts: {
@@ -77,7 +76,6 @@ export const cvData = {
       ],
     },
     {
-      role: "Staff Administrasi & Operasional",
       company: "Toko Kilometer 20, Kota Palangka Raya",
       start: "Jan 2023",
       end: "Des 2025",
