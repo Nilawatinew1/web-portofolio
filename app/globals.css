@@ -10,35 +10,46 @@
   --card-foreground: oklch(0.145 0 0);
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.145 0 0);
-  --primary: oklch(0.67 0.12 195); /* teal */
-  --primary-foreground: oklch(0.98 0 0);
-  --secondary: oklch(0.97 0 0);
+  
+  /* --- UBAH DI SINI UNTUK PINK PASTEL --- */
+  --primary: oklch(0.80 0.11 350);            /* Pink Pastel yang cerah tapi lembut */
+  --primary-foreground: oklch(0.35 0.08 350); /* Tulisan di dalam tombol pink (pink tua gelap agar kontras) */
+  
+  --secondary: oklch(0.97 0.01 350);
   --secondary-foreground: oklch(0.205 0 0);
   --muted: oklch(0.97 0 0);
   --muted-foreground: oklch(0.556 0 0);
-  --accent: oklch(0.82 0.15 80); /* amber */
-  --accent-foreground: oklch(0.2 0 0);
+  
+  /* Aksen saat di-hover / tombol alternatif */
+  --accent: oklch(0.94 0.04 350);             /* Pink yang saaaangat muda/soft */
+  --accent-foreground: oklch(0.35 0.08 350);
+  /* ------------------------------------- */
+
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(0.577 0.245 27.325);
-  --border: oklch(0.922 0 0);
-  --input: oklch(0.922 0 0);
-  --ring: oklch(0.708 0 0);
+  
+  /* Sesuai dengan warna pink pastel agar border soft */
+  --border: oklch(0.94 0.02 350);
+  --input: oklch(0.94 0.02 350);
+  --ring: oklch(0.80 0.11 350);
+  
   --chart-1: oklch(0.646 0.222 41.116);
   --chart-2: oklch(0.6 0.118 184.704);
   --chart-3: oklch(0.398 0.07 227.392);
   --chart-4: oklch(0.828 0.189 84.429);
   --chart-5: oklch(0.769 0.188 70.08);
   --radius: 0.625rem;
-  --sidebar: oklch(0.985 0 0);
+  
+  /* Sidebar (Jika pakai komponen sidebar dari shadcn) */
+  --sidebar: oklch(0.985 0.01 350);
   --sidebar-foreground: oklch(0.145 0 0);
-  --sidebar-primary: oklch(0.205 0 0);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.97 0 0);
-  --sidebar-accent-foreground: oklch(0.205 0 0);
-  --sidebar-border: oklch(0.922 0 0);
-  --sidebar-ring: oklch(0.708 0 0);
+  --sidebar-primary: oklch(0.80 0.11 350);
+  --sidebar-primary-foreground: oklch(0.35 0.08 350);
+  --sidebar-accent: oklch(0.94 0.04 350);
+  --sidebar-accent-foreground: oklch(0.35 0.08 350);
+  --sidebar-border: oklch(0.94 0.02 350);
+  --sidebar-ring: oklch(0.80 0.11 350);
 }
-
 .dark {
   --background: oklch(0.145 0 0);
   --foreground: oklch(0.985 0 0);
