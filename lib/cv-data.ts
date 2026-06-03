@@ -150,14 +150,14 @@ export const cvData = {
   ] as Education[],
   certifications: [
     { title: "DQLab Academy: Bootcamp Data Analyst with Excel Batch 18", date: "Sedang Berjalan" },
-    { title: "Harisenin.com: Analyze Like a Pro", date: "Juli 2025" }
+    { title: "Harisenin.com: Analyze Like a Pro", date: "Juli 2025" },
     { title: "Kelas Karir: Pelatihan Excel Admin Perkantoran", date: "September 2025" },
     { title: "Digital Talent Scholarship: Fundamental of Data Analyst", date: "Agustus 2025" },
     { title: "Kelas Karir: Microsoft Excel untuk Pencatatan Keuangan Dasar", date: "Juli 2025" },
     { title: "MySkill: Data Visualization Using Excel", date: "Agustus 2025"},
     { title: "Ousean Group: Data Analist dengan Microsoft Excel", date: "Oktober 2025"}
     { title: "Harisenin.com: Bootcamp Kilat Staff Administrasi: Dasar Administrasi Perkantoran", date: "Juli 2025"},
-    { title: "CanvaCamp",date: "Agustus 2025"}
+    { title: "CanvaCamp",date: "Agustus 2025"},
   ] as Certification[],
   achievements: [
     { 
