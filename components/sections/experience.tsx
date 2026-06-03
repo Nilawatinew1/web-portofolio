@@ -8,7 +8,7 @@ export function ExperienceSection() {
      <h2 className="text-2xl font-semibold mb-6">Pengalaman Kerja</h2>
       <div className="space-y-4 mb-12">
         {(cvData as any).Workexperience?.map((exp: any, idx: number) => (
-          <Card key={idx} className="p-4 border-l-4 border-primary">
+          <Card key={idx} className="p-4 border-l-4 border-primary transition-all duration-300 hover:-translate-y-1 hover:shadow-md">
             <div className="flex flex-col justify-between gap-2 md:flex-row md:items-center">
               <div>
                 <h3 className="text-lg font-medium">{exp.role}</h3>
@@ -36,7 +36,7 @@ export function ExperienceSection() {
       <h2 className="text-2xl font-semibold mb-6">Pengalaman Organisasi</h2>
       <div className="space-y-4">
         {(cvData as any).Organizationexperience?.map((exp: any, idx: number) => (
-          <Card key={idx} className="p-4 border-l-4 border-primary">
+          <Card key={idx} className="p-4 border-l-4 border-primary transition-all duration-300 hover:-translate-y-1 hover:shadow-md">
             <div className="flex flex-col justify-between gap-2 md:flex-row md:items-center">
               <div>
                 <h3 className="text-lg font-medium">{exp.role}</h3>
