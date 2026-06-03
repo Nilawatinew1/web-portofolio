@@ -71,8 +71,8 @@ export const cvData = {
       bullets: [
         "Melakukan pengecekan dan pembaruan informasi data barang serta monitoring stok menggunakan sistem Inventory Control System (ICS)",
         "Menjalankan proses buka dan tutup kasir serta memastikan kesesuaian transaksi harian dengan data penjualan",
-        "3.	Membuat dan mengelola dokumen Surat Permintaan (SP) serta berkoordinasi terkait kebutuhan barang departemen",
-        "4.	Memberikan rekomendasi produk sesuai kebutuhan pelanggan untuk mendukung pengalaman berbelanja yang optimal",
+        "Membuat dan mengelola dokumen Surat Permintaan (SP) serta berkoordinasi terkait kebutuhan barang departemen",
+        "Memberikan rekomendasi produk sesuai kebutuhan pelanggan untuk mendukung pengalaman berbelanja yang optimal",
       ],
     },
     {
@@ -150,9 +150,14 @@ export const cvData = {
   ] as Education[],
   certifications: [
     { title: "DQLab Academy: Bootcamp Data Analyst with Excel Batch 18", date: "Sedang Berjalan" },
+    { title: "Harisenin.com: Analyze Like a Pro", date: "Juli 2025" }
     { title: "Kelas Karir: Pelatihan Excel Admin Perkantoran", date: "September 2025" },
     { title: "Digital Talent Scholarship: Fundamental of Data Analyst", date: "Agustus 2025" },
     { title: "Kelas Karir: Microsoft Excel untuk Pencatatan Keuangan Dasar", date: "Juli 2025" },
+    { title: "MySkill: Data Visualization Using Excel", date: "Agustus 2025"},
+    { title: "Ousean Group: Data Analist dengan Microsoft Excel", date: "Oktober 2025"}
+    { title: "Harisenin.com: Bootcamp Kilat Staff Administrasi: Dasar Administrasi Perkantoran", date: "Juli 2025"},
+    { title: "CanvaCamp",date: "Agustus 2025"}
   ] as Certification[],
   achievements: [
     { 
