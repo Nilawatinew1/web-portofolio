@@ -52,7 +52,7 @@ export function HeroSection() {
         </div>
 
         <div className="order-1 lg:order-2 flex justify-center w-full lg:w-auto">
-          <div className="size-56 overflow-hidden rounded-full bg-gradient-to-br from-[#00ACAC] to-teal-600 p-1 md:size-64">
+          <div className="size-56 overflow-hidden rounded-full bg-gradient-to-br from-primary to-primary/60 p-1 md:size-64">
             <div className="size-full overflow-hidden rounded-full">
               <img
                 src="/images/foto-profil-nila.png"
