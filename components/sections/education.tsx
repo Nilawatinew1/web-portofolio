@@ -7,7 +7,7 @@ export function EducationSection() {
       <h2 className="text-2xl font-semibold">Pendidikan</h2>
       <div className="mt-6 grid grid-cols-1 gap-4 md:grid-cols-2">
         {cvData.education.map((e, i) => (
-          <Card key={i}>
+          <Card key={i} className="transition-all duration-300 hover:-translate-y-1 hover:shadow-md">
             <CardHeader>
               <CardTitle className="text-lg">{e.degree}</CardTitle>
             </CardHeader>
