@@ -37,7 +37,7 @@ export type Project = {
 export const cvData = {
   name: "Nila Wati",
   summary:
-    "Profesional administrasi dengan pengalaman lebih dari 3 tahun di industri ritel dan penjualan. Memiliki kemampuan dalam manajemen data, laporan keuangan dan koordinasi operasional. Pengalaman di bidang sales telah mengasah kemampuan komunikasi interpersonal dan orientasi pada target dengan kombinasi ketelitian administratif untuk mendukung efisiensi alur kerja perusahaan",
+    "Terima kasih telah mengunjungi portofolio digital saya. Di  website ini saya menampilkan pengalaman kerja, keterampilan dan sebagainya yang telah saya peroleh. Saya aktif dalam belajar dan mengembangkan diri, terutama di bidang administrasi.",
   contacts: {
     email: "nilawatinew786@gmail.com",
     instagram: "https://www.instagram.com/_nilawtt?utm_source=qr&igsh=ZDJra2NlMjdyY3ls",
