@@ -23,7 +23,7 @@ export function SiteHeader() {
   <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur">
     <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4">
       {/* Nama / Logo */}
-      <Link href="/" className="font-bold text-xl text-[#00ACAC]">
+      <Link href="/" className="font-bold text-xl text-primary transition-colors">
         Nila Wati
       </Link>
 
@@ -37,8 +37,8 @@ export function SiteHeader() {
             <Link
               key={item.href}
               href={item.href}
-              onClick={() => setIsOpen(false)}
-              className="text-sm font-medium transition-colors hover:text-[#00ACAC]"
+              onClick={() => setIsOpen(false)}e
+              className="text-sm font-medium transition-colors hover:-primary"
             >
               {item.label}
             </Link>
