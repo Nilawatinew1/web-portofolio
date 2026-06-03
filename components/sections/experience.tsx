@@ -14,7 +14,7 @@ export function ExperienceSection() {
                 <h3 className="text-lg font-medium">{exp.role}</h3>
                 <p className="text-sm text-muted-foreground">{exp.company}</p>
               </div>
-              <p className="text-sm font-mono">{exp.start} — {exp.end}</p>
+              <p className="text-sm">{exp.start} — {exp.end}</p>
             </div>
             <Accordion type="single" collapsible className="mt-1">
               <AccordionItem value="details" className="border-none">
@@ -42,7 +42,7 @@ export function ExperienceSection() {
                 <h3 className="text-lg font-medium">{exp.role}</h3>
                 <p className="text-sm text-muted-foreground">{exp.company}</p>
               </div>
-              <p className="text-sm font-mono">{exp.start} — {exp.end}</p>
+              <p className="text-sm">{exp.start} — {exp.end}</p>
             </div>
             <Accordion type="single" collapsible className="mt-1">
               <AccordionItem value="details" className="border-none">
