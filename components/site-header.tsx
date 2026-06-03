@@ -38,7 +38,7 @@ export function SiteHeader() {
               key={item.href}
               href={item.href}
               onClick={() => setIsOpen(false)}e
-              className="px-3 py-1.5 rounded-md text-sm font-medium transition-all hover:bg-primary hover:text-primary-foreground"
+              className="px-3 py-1.5 rounded-full text-xs font-medium transition-all border border-border bg-background text-muted-foreground hover:border-primary hover:bg-primary/10 hover:text-primary"
             >
               {item.label}
             </Link>
