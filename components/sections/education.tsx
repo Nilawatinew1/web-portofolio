@@ -14,7 +14,7 @@ export function EducationSection() {
             <CardContent className="text-sm text-muted-foreground">
               <p>{e.school}</p>
               {(e.start || e.end) && (
-                <p className="font-mono">
+                <p>
                   {e.start} — {e.end}
                 </p>
               )}
