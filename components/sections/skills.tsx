@@ -38,7 +38,7 @@ export function SkillsSection() {
 
       <div className="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {items.map(({ category, item }) => (
-          <Card key={category + item} className="transition hover:shadow-sm" style={{ backgroundColor: "var(--card)" }}>
+          <Card key={category + item} className="transition-all duration-300 hover:-translate-y-1 hover:shadow-md cursor-pointer">
             <CardHeader>
               <CardTitle className="text-base">{item}</CardTitle>
             </CardHeader>
