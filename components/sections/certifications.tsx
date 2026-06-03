@@ -8,7 +8,7 @@ export function CertificationsSection() {
       <h2 className="text-2xl font-semibold">Sertifikasi & Pelatihan</h2>
       <div className="mt-6 grid grid-cols-1 gap-3 sm:grid-cols-2">
         {cvData.certifications.map((c, i) => (
-          <Card key={i} className="flex items-center justify-between gap-3 p-4">
+          <Card key={i} className="flex items-center justify-between gap-3 p-4 transition-all duration-300 hover:-translate-y-1 hover:shadow-md">
             <p className="text-pretty">{c.title}</p>
             <Badge variant="secondary" className="rounded-md">
               {c.date}
