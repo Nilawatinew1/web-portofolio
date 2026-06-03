@@ -37,7 +37,7 @@ export type Project = {
 export const cvData = {
   name: "Nila Wati",
   summary:
-    "Terima kasih telah mengunjungi portofolio digital saya. Di  website ini saya menampilkan pengalaman kerja, keterampilan dan sebagainya yang telah saya peroleh. Saya aktif dalam belajar dan mengembangkan diri, terutama di bidang administrasi.",
+    "Terima kasih telah mengunjungi portofolio digital saya. Di  website ini saya menampilkan pengalaman kerja, keterampilan dan sebagainya yang telah saya peroleh. Saya aktif dalam belajar dan mengembangkan diri. Saya sangat berminat untuk membangun karir dalam bidang administrasi.",
   contacts: {
     email: "nilawatinew786@gmail.com",
     instagram: "https://www.instagram.com/_nilawtt?utm_source=qr&igsh=ZDJra2NlMjdyY3ls",
@@ -50,7 +50,7 @@ export const cvData = {
       items: [
         "Pengolahan Data",
         "Manajemen Inventaris & Audit Stok",
-        "Pengoperasian Sistem POS",
+        "Pengoperasian Sistem Point of Sale",
       ],
     },
     {
@@ -63,6 +63,18 @@ export const cvData = {
     },
   ],
   Workexperience: [
+     {
+      role: "Pramuniaga",
+      company: "Salemba Toko Buku, Kota Palangka Raya",
+      start: "April 2026",
+      end: "Mei 2026",
+      bullets: [
+        "Melakukan pengecekan dan pembaruan informasi data barang serta monitoring stok menggunakan sistem Inventory Control System (ICS)",
+        "Menjalankan proses buka dan tutup kasir serta memastikan kesesuaian transaksi harian dengan data penjualan",
+        "3.	Membuat dan mengelola dokumen Surat Permintaan (SP) serta berkoordinasi terkait kebutuhan barang departemen",
+        "4.	Memberikan rekomendasi produk sesuai kebutuhan pelanggan untuk mendukung pengalaman berbelanja yang optimal",
+      ],
+    },
     {
       role: "Sales Person",
       company: "PT. Media Group Internasional, Kota Palangka Raya",
