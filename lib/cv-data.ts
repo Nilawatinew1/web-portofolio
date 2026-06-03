@@ -88,6 +88,7 @@ export const cvData = {
       ],
     },
     {
+      role: "Admin Toko",
       company: "Toko Kilometer 20, Kota Palangka Raya",
       start: "Jan 2023",
       end: "Des 2025",
