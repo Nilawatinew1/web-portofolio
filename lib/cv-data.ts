@@ -141,7 +141,7 @@ export const cvData = {
       school: "Program Studi Ilmu Al-Quran dan Tafsir",
       start: "2018",
       end: "2022",
-      mapLink: "https://share.google/mWqGUU9Q5fKlPwyNQ"
+      mapLink: "https://share.google/mWqGUU9Q5fKlPwyNQ",
     },
     {
       degree: "SMA - SMA Muhammadiyah 1 Palangka Raya",

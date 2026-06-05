@@ -12,7 +12,11 @@ export function EducationSection() {
               <CardTitle className="text-lg">{e.degree}</CardTitle>
             </CardHeader>
             <CardContent className="text-sm text-muted-foreground">
-              <p>{e.school}</p>
+              <p>
+                <a href={e.mapLink || "#"} target="_blank" rel="noopener noreferrer" className="hover:text-primary hover:underline transition-colors cursor-pointer" title="Lihat lokasi di Google Maps">
+                  {e.school} 📍
+                </a>
+              </p>
               {(e.start || e.end) && (
                 <p>
                   {e.start} — {e.end}
