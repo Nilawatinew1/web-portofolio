@@ -148,6 +148,7 @@ export const cvData = {
       school: "Ilmu Pengetahuan Sosial",
       start: "2015",
       end: "2018",
+      mapLink: "https://share.google/d9KVTGFzpKI1MCiWC",
     },
   ] as Education[],
   certifications: [
