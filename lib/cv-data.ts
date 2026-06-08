@@ -171,7 +171,7 @@ export const cvData = {
       worksheetLink: "#",
     },
     { title: "Ousean Group: Data Analist dengan Microsoft Excel (Oktober 2025)",
-      worksheetLink: "#",
+      worksheetLink: "https://docs.google.com/spreadsheets/d/1WjrjuEpQHLRVoSOHraAGa07SWk51J1_L/edit?usp=sharing&ouid=105377082677061839453&rtpof=true&sd=true",
     },
     { title: "Harisenin.com: Bootcamp Kilat Staff Administrasi: Dasar Administrasi Perkantoran (Juli 2025)",
       worksheetLink: "#",
