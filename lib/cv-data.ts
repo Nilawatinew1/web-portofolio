@@ -161,6 +161,7 @@ export const cvData = {
     { title: "Ousean Group: Data Analist dengan Microsoft Excel", date: "Oktober 2025"},
     { title: "Harisenin.com: Bootcamp Kilat Staff Administrasi: Dasar Administrasi Perkantoran", date: "Juli 2025"},
     { title: "CanvaCamp", date: "Agustus 2025"},
+    { title: "RevoU: Excel for Data Analyst", date: "Juni 2025"},
   ] as Certification[],
   achievements: [
     { 
