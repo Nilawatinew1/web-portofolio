@@ -23,9 +23,6 @@ export function CertificationsSection() {
                 </div>
               )}
             </div>
-            <Badge variant="secondary" className="rounded-md shrink-0 w-fit self-start sm:self-center">
-              {c.date}
-            </Badge>
           </Card>
         ))}
       </div>
