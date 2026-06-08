@@ -162,7 +162,7 @@ export const cvData = {
       worksheetLink: "#",
     },
     { title: "Digital Talent Scholarship: Fundamental of Data Analyst (Agustus 2025)",
-      worksheetLink: "#",
+      worksheetLink: "https://docs.google.com/presentation/d/17DdEj2Xf2UVeBYVKBFYrjNss1SQjGCMo/edit?usp=sharing&ouid=105377082677061839453&rtpof=true&sd=true",
     },
     { title: "Kelas Karir: Microsoft Excel untuk Pencatatan Keuangan Dasar (Juli 2025)",
       worksheetLink: "#",
