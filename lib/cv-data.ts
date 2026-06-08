@@ -187,17 +187,20 @@ export const cvData = {
     { 
         title: "Certified International Specialist in Data Modelling ", 
         organization: "PASAS Institute", 
-        year: "2026" 
+        year: "2026"
+        achievementLink: "https://drive.google.com/file/d/11d-CxMMgEb6wAdFBoe_QMTcqQxk0bXTr/view?usp=drive_link",
     },
     { 
         title: "Juara 2 Tim - Learning Path Data Analytics, Data Engineering, Machine Learning, dan Deep Learning", 
         organization: "KomDigi x DQLab", 
         year: "2025" 
+        achievementLink: "https://drive.google.com/file/d/1fXYwcvIKbeir3WnSdyl-Az1L3r-IqtWi/view?usp=drive_link",
     },
     { 
         title: "Peserta Kompetisi Kaligrafi Kategori Naskah", 
         organization: "MTQ ke-56 Kotawaringin Timur", 
-        year: "2019" 
+        year: "2019"
+        achievementLink: "https://drive.google.com/file/d/1ClGC7DO3WuHwhaP-0_BzxdU_l2ma22SP/view?usp=sharing",
     },
   ] as Achievement[],
   adminprojects: [
