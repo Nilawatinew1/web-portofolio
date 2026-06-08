@@ -44,7 +44,6 @@ export function SiteHeader() {
           ))}
         </nav>
 
-        <ThemeToggle />
 
         {/* Tombol Titik Tiga (Hanya muncul di HP) */}
         <Button 
