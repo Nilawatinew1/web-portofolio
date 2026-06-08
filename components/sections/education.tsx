@@ -22,11 +22,6 @@ export function EducationSection() {
                   📍 {e.school} 
                 </Link>
               </div>
-              {(e.start || e.end) && (
-                <p>
-                  {e.start} — {e.end}
-                </p>
-              )}
             </CardContent>
           </Card>
         ))}
