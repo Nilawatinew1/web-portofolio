@@ -19,9 +19,14 @@ export function EducationSection() {
                   target="_blank" 
                   className="hover:text-primary hover:underline transition-colors cursor-pointer inline-flex items-center gap-1 text-muted-foreground hover:text-foreground"
                 >
-                  📍 {e.school} 
+                 📍 {e.school} 
                 </Link>
               </div>
+             {(e.start || e.end) && (
+                <p className="text-xs text-muted-foreground mt-1">
+                  {e.start} — {e.end}
+                </p>
+              )}
             </CardContent>
           </Card>
         ))}
