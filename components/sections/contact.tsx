@@ -6,7 +6,7 @@ import { Mail, Linkedin, Video } from "lucide-react"
 
 export function ContactSection() {
   const { toast } = useToast()
-  const { email, phone, linkedin, tiktok } = cvData.contacts
+  const { email, linkedin, tiktok } = cvData.contacts
 
   return (
     <section id="contact" className="mx-auto max-w-6xl px-4 py-16">
