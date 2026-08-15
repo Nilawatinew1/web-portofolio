@@ -37,7 +37,7 @@ export type Project = {
 export const cvData = {
   name: "Nila Wati",
   summary:
-    "Terima kasih sudah mampir ke portofolio digital! Saya Nila, seorang admin yang suka beresin hal-hal berantakan jadi terstruktur, mulai dari data, laporan, sampai sistem kerja sehari-hari. Saya sangat tertarik dengan bidang administrasi sehingga saya menekuninya dengan berbagai pengalaman kerja, pelatihan, dan proyek di halaman ini.",
+    "Terima kasih sudah mampir ke portofolio digital ini!
   contacts: {
     email: "nilawatinew786@gmail.com",
     linkedin: "https://www.linkedin.com/in/nila-wati786",
@@ -69,8 +69,8 @@ export const cvData = {
       company: "CV. GUNUNG MEDIA, Kota Palangka Raya",
       start: "Juni 2026",
       end: "Sekarang",
-      bullets: [
-        "Maintenance...",
+      bullets: [.
+        "Saya mengelola administrasi umum dan pengarsipan dokumen fisik maupun digital, melakukan input, rekap, dan pengelolaan data menggunakan Microsoft Word, Excel, Google Docs, dan Google Sheets, serta menangani pembuatan surat, laporan sederhana, dan komunikasi administratif melalui WhatsApp dan email. Saya juga berperan mendukung kebutuhan proyek dan operasional perusahaan sesuai arahan",
       ],
     },
     {
