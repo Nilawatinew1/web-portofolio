@@ -37,7 +37,7 @@ export type Project = {
 export const cvData = {
   name: "Nila Wati",
   summary:
-    "Terima kasih sudah mampir ke portofolio digital ini!
+    "Terima kasih sudah mampir ke portofolio digital ini"
   contacts: {
     email: "nilawatinew786@gmail.com",
     linkedin: "https://www.linkedin.com/in/nila-wati786",
