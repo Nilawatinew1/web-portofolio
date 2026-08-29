@@ -37,11 +37,11 @@ export type Project = {
 export const cvData = {
   name: "Nila Wati",
   summary:
-    "Terima kasih sudah mampir ke portofolio digital ini"
+    "Terima kasih sudah mampir ke portofolio digital ini",
   contacts: {
     email: "nilawatinew786@gmail.com",
     linkedin: "https://www.linkedin.com/in/nila-wati786",
-    tiktok: "https://www.tiktok.com/@_nilawtt"
+    tiktok: "https://www.tiktok.com/@_nilawtt",
   },
   skills: [
     {
@@ -50,7 +50,7 @@ export const cvData = {
         "Pengolahan Data",
         "Manajemen Inventaris dan Audit Stok",
         "Pengoperasian Sistem Point of Sale",
-        "Pengoperasian Microsoft Office"
+        "Pengoperasian Microsoft Office",
       ],
     },
     {
@@ -59,7 +59,7 @@ export const cvData = {
         "Manajemen Waktu",
         "Ketelitian terhadap Detail",
         "Pemecahan Masalah",
-        "Kerjasama Tim"
+        "Kerjasama Tim",
       ],
     },
   ],
