@@ -1,44 +1,9 @@
 "use client"
 import { cvData } from "@/lib/cv-data"
 import { Button } from "@/components/ui/button"
-import { useEffect, useState } from "react"
-import { ArrowDownRight, Download, Linkedin } from "lucide-react"
-
-function useTypewriter(words: string[], speed = 80, pause = 1200) {
-  const [index, setIndex] = useState(0)
-  const [text, setText] = useState("")
-  const [deleting, setDeleting] = useState(false)
-
-  useEffect(() => {
-    const word = words[index % words.length]
-    const timeout = setTimeout(
-      () => {
-        if (!deleting) {
-          const next = word.slice(0, text.length + 1)
-          setText(next)
-          if (next === word) setTimeout(() => setDeleting(true), pause)
-        } else {
-          const next = word.slice(0, text.length - 1)
-          setText(next)
-          if (next.length === 0) {
-            setDeleting(false)
-            setIndex((i) => (i + 1) % words.length)
-          }
-        }
-      },
-      deleting ? speed / 2 : speed,
-    )
-
-    return () => clearTimeout(timeout)
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [text, deleting, index])
-
-  return text + (deleting ? "" : "|")
-}
+import { ArrowDownRight, Linkedin } from "lucide-react"
 
 export function HeroSection() {
-  const typed = useTypewriter(["Administrasi Perusahaan", "Manajemen Transaksi", "Menyusun Laporan Keuangan", "Pengarsipan Digital", "Konsultasi Produk"])
-
   return (
     <section id="about" className="relative isolate">
       <div className="mx-auto flex flex-col items-center lg:flex-row max-w-6xl gap-8 px-4 py-12 md:py-16">
@@ -46,9 +11,20 @@ export function HeroSection() {
           <h1 className="text-pretty text-4xl font-semibold leading-tight sm:text-5xl">{cvData.name}</h1>
           <p className="mt-2 text-balance text-primary font-medium">{cvData.role}</p>
           <p className="mt-4 max-w-2xl leading-relaxed">{cvData.summary}</p>
-          <p className="mt-4 text-lg text-muted-foreground">
-            Fokus: <span className="font-medium text-foreground">{typed}</span>
-          </p>
+          
+          <div className="mt-6 flex flex-wrap justify-center lg:justify-start items-center gap-3">
+            <Button asChild>
+              <a href="#projects">
+                Lihat Proyek <ArrowDownRight className="ml-2 size-4" />
+              </a>
+            </Button>
+            <Button variant="outline" asChild>
+              <a href={cvData.contacts.linkedin} target="_blank" rel="noreferrer">
+                <Linkedin className="mr-2 size-4" />
+                LinkedIn
+              </a>
+            </Button>
+          </div>
         </div>
 
         <div className="order-1 lg:order-2 flex justify-center w-full lg:w-auto">
