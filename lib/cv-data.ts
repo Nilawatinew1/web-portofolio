@@ -37,106 +37,12 @@ export type Project = {
 export const cvData = {
   name: "Nila Wati",
   summary:
-    "Terima kasih sudah mampir ke portofolio digital ini",
+    "Digital Skills Enthusiast",
   contacts: {
     email: "nilawatinew786@gmail.com",
     linkedin: "https://www.linkedin.com/in/nila-wati786",
     tiktok: "https://www.tiktok.com/@_nilawtt",
   },
-  skills: [
-    {
-      category: "Teknis",
-      items: [
-        "Pengolahan Data",
-        "Manajemen Inventaris dan Audit Stok",
-        "Pengoperasian Sistem Point of Sale",
-        "Pengoperasian Microsoft Office",
-      ],
-    },
-    {
-      category: "Non-Teknis",
-      items: [
-        "Manajemen Waktu",
-        "Ketelitian terhadap Detail",
-        "Pemecahan Masalah",
-        "Kerjasama Tim",
-      ],
-    },
-  ],
-  Workexperience: [
-    {
-      role: "Staff Administrasi",
-      company: "CV. GUNUNG MEDIA, Kota Palangka Raya",
-      start: "Juni 2026",
-      end: "Sekarang",
-      bullets: [
-        "Saya mengelola administrasi umum dan pengarsipan dokumen fisik maupun digital, melakukan input, rekap, dan pengelolaan data menggunakan Microsoft Word, Excel, Google Docs, dan Google Sheets, serta menangani pembuatan surat, laporan sederhana, dan komunikasi administratif melalui WhatsApp dan email. Saya juga berperan mendukung kebutuhan proyek dan operasional perusahaan sesuai arahan",
-      ],
-    },
-    {
-      role: "Sales Person",
-      company: "PT. MEDIA GRUP INTERNASIONAL, Kota Palangka Raya",
-      start: "Des 2025",
-      end: "Feb 2026",
-      bullets: [
-        "Saya bertugas mencatat dan mengelola transaksi penjualan secara akurat menggunakan sistem Point-of-Sale (POS) sebagai bagian dari administrasi operasional sehari-hari. Saya juga bekerja sama dengan tim dalam kegiatan audit stok barang, memastikan data inventaris selalu sesuai dan akurat. Selain itu, saya turut mendukung kelancaran operasional harian melalui pengelolaan data transaksi serta komunikasi dengan pelanggan untuk lebih memahami preferensi mereka. Saya rutin berkoordinasi dengan tim terkait kegiatan-kegiatan dengan promosi dan operasional, serta melakukan tindak lanjut kepada pelanggan untuk menjaga hubungan dan stabilitas operasional toko.",
-      ],
-    },
-    {
-      role: "Administrasi Operasional",
-      company: "KILOMETER 20, Kota Palangka Raya",
-      start: "Jan 2023",
-      end: "Des 2025",
-      bullets: [
-        "Saya bertanggung jawab mengelola transaksi harian dan mingguan, termasuk menyusun laporan utang-piutang serta menyediakan data akurat untuk mendukung pengambilan keputusan finansial toko. Saya juga berupaya mengoptimalkan alur kerja mulai dari penyediaan, pengecekan, hingga pengiriman barang agar proses berjalan lebih efisien. Selain itu, saya rutin menganalisis data stok untuk menjaga ketersediaan produk sekaligus memberikan rekomendasi barang yang perlu ditambah stoknya guna mencegah penumpukan maupun kekurangan barang. Selain itu, saya juga menangani korespondensi dan pelayanan pelanggan baik secara online maupun langsung di toko.",
-      ],
-    },
-  ] as Experience[],
-    Organizationexperience: [
-    {
-      role: "Bendahara - Senat Mahasiswa Fakultas Ushuluddin Adab dan Dakwah",
-      company: "IAIN Palangka Raya",
-      start: "2020",
-      end: "2021",
-      bullets: [
-        "Sebagai Bendahara, saya mengelola dan mengontrol arus kas organisasi untuk menjaga transparansi dan akuntabilitas keuangan harian, sekaligus merancang dan mengawasi pelaksanaan Rencana Anggaran Biaya (RAB) tahunan Senat Mahasiswa. Saya juga menyusun Laporan Keuangan (LPJ) secara periodik sebagai bentuk pertanggungjawaban kepada Fakultas dan anggota Senat.",
-      ],
-    },
-    {
-      role: "Divisi Pendidikan - Himpunan Mahasiswa Program Studi Ilmu Al-Quran dan Tasir",
-      company: "IAIN Palangka Raya",
-      start: "2019",
-      end: "2020",
-      bullets: [
-        "Sebagai bagian dari Divisi Pendidikan, saya merancang dan melaksanakan program edukatif seperti kajian dan halaqah berbasis Ilmu Al-Qur'an dan Tafsir untuk mendukung pengembangan wawasan keilmuan anggota. Saya juga berkoordinasi dengan sumber daya akademik, seperti dosen dan pakar, serta memfasilitasi kegiatan mentoring dan peer-teaching guna meningkatkan kompetensi anggota. Setiap akhir program, saya melakukan evaluasi bersama tim organisasi untuk menyelenggarakan program yang lebih baik dan menyusun Laporan Pertanggungjawaban (LPJ) sebagai dasar untuk perbaikan strategis ke depannya.",
-      ],
-    },
-    {
-      role: "Sekretaris - Himpunan Mahasiswa Jurusan Ilmu Al-Quran dan Tasir",
-      company: "IAIN Palangka Raya",
-      start: "2018",
-      end: "2019",
-      bullets: [
-        "Saya mengelola dan melakukan pengarsipan digital, menjalankan fungsi sebagai notulensi rapat dan kerahasiaan data, serta menangani korespondensi resmi organisasi sesuai Standard Operating Procedure (SOP). Saya juga berperan sebagai koordinator komunikasi dan pendukung operasional pimpinan organisasi.",
-      ],
-    }
-  ] as Experience[],
-  education: [
-    {
-      degree: "S1 - Institut Agama Islam Negeri Palangka Raya",
-      school: "Program Studi Ilmu Al-Quran dan Tafsir",
-      start: "2018",
-      end: "2022",
-      mapLink: "https://share.google/mWqGUU9Q5fKlPwyNQ",
-    },
-    {
-      degree: "SMA - SMA Muhammadiyah 1 Palangka Raya",
-      school: "Ilmu Pengetahuan Sosial",
-      start: "2015",
-      end: "2018",
-      mapLink: "https://share.google/d9KVTGFzpKI1MCiWC",
-    },
-  ] as Education[],
   certifications: [
     { title: "DQLab Academy: Bootcamp Data Analyst with Excel Batch 18 (Sedang Berjalan)",
       worksheetLink: "https://docs.google.com/spreadsheets/d/1iKxiJ4i7QhvwZSFnwmpgFIYv_OtgVHjn/edit?usp=drive_link&ouid=105377082677061839453&rtpof=true&sd=true",
