@@ -66,10 +66,6 @@ export function HeroSection() {
               </a>
             </Button>
           </div>
-          <p className="mt-3 text-sm text-muted-foreground">
-            Fokus: <span className="font-medium text-foreground">{typed}</span>
-          </p>
-        </div>
 
         <div className="order-1 md:order-2">
           <div className="mx-auto size-40 overflow-hidden rounded-xl border md:size-48">
