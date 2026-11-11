@@ -198,10 +198,15 @@ export const cvData = {
   socialprojects: [
   {
     title: "Rumus Dasar Excel",
-    image: "/images/dua.png", // sesuaikan dengan nama file gambarmu
+    image: "/images/dua.png",
     alt: "Rumus",
     link: "https://www.tiktok.com/@_nilawtt/photo/7668169361135373588" // atau link postinganmu
   },
-  // Tambahkan proyek sosial media lainnya jika ada
+   {
+    title: "Tips Google Sheet",
+    image: "/images/satu.png",
+    alt: "Rumus",
+    link: "https://www.tiktok.com/@_nilawtt/photo/7674478800985410836" // atau link postinganmu
+  },
 ]
 }
