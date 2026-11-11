@@ -10,7 +10,7 @@ export function SiteHeader() {
           <img 
             src="/images/logo-nila.png" 
             alt="Logo Nila Wati" 
-            className="h-10 md:h-12 w-auto object-contain"
+            className="h-8 md:h-10 w-auto object-contain"
           />
         </Link>
 
