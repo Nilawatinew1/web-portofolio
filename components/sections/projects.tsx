@@ -35,6 +35,7 @@ function TiltCard(props: React.HTMLAttributes<HTMLDivElement>) {
 export function ProjectsSection() {
   return (
     <section id="projects" className="mx-auto max-w-6xl px-4 py-12">
+      
       {/* 1. SEKSI PROYEK ADMINISTRASI */}
       <h2 className="text-2xl font-semibold mb-6">Proyek Administrasi</h2>
       <div className="grid grid-cols-1 gap-4 md:grid-cols-3 mb-12">
@@ -99,7 +100,7 @@ export function ProjectsSection() {
 
       {/* 3. SEKSI DESAIN GRAFIS */}
       <h2 className="text-2xl font-semibold mb-6">Proyek Desain Grafis</h2>
-      <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
+      <div className="grid grid-cols-1 gap-4 md:grid-cols-3 mb-12">
         {(cvData as any).visualisasiprojects?.map((p: any, i: number) => (
           <TiltCard key={i}>
             <Card className="h-full flex flex-col">
@@ -129,35 +130,32 @@ export function ProjectsSection() {
       </div>
 
       {/* 4. KONTEN SOSIAL MEDIA */}
-      <h2 className="text-2xl font-semibold mb-6">Konten Sosial Media</h2>
-      <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
-        {(cvData as any).visualisasiprojects?.map((p: any, i: number) => (
-          <TiltCard key={i}>
-            <Card className="h-full flex flex-col">
-              <CardHeader>
-                <CardTitle className="text-lg">{p.title}</CardTitle>
-              </CardHeader>
-              <CardContent className="space-y-3 flex-grow flex flex-col">
-                <div className="relative h-48 w-full overflow-hidden rounded-md border mt-auto">
-                  <img
-                    src={p.image || "/placeholder.svg"}
-                    alt={p.alt || p.title}
-                    className="h-full w-full object-cover object-center"
-                  />
-                </div>
-                {p.link && (
-                  <Link href={p.link} target="_blank" rel="noopener noreferrer">
-                    <Button variant="outline" size="sm" className="w-full mt-2">
-                      <ExternalLink className="mr-2 h-4 w-4" />
-                      Lihat Proyek
-                    </Button>
-                  </Link>
-                )}
-              </CardContent>
-            </Card>
-          </TiltCard>
-        ))}
-      </div>
-    </section>
-  )
-}
+<h2 className="text-2xl font-semibold mb-6">Konten Sosial Media</h2>
+<div className="grid grid-cols-1 gap-4 md:grid-cols-3">
+  {(cvData as any).socialprojects?.map((p: any, i: number) => (
+    <TiltCard key={i}>
+      <Card className="h-full flex flex-col">
+        <CardHeader>
+          <CardTitle className="text-lg">{p.title}</CardTitle>
+        </CardHeader>
+        <CardContent className="space-y-3 flex-grow flex flex-col">
+          <div className="relative h-48 w-full overflow-hidden rounded-md border mt-auto">
+            <img
+              src={p.image || "/placeholder.svg"}
+              alt={p.alt || p.title}
+              className="h-full w-full object-cover object-center"
+            />
+          </div>
+          {p.link && (
+            <Link href={p.link} target="_blank" rel="noopener noreferrer">
+              <Button variant="outline" size="sm" className="w-full mt-2">
+                <ExternalLink className="mr-2 h-4 w-4" />
+                Lihat Proyek
+              </Button>
+            </Link>
+          )}
+        </CardContent>
+      </Card>
+    </TiltCard>
+  ))}
+</div>
