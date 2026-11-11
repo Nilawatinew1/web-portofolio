@@ -1,19 +1,16 @@
 import Link from "next/link"
-import { siteConfig } from "@/config/site"
-import { cn } from "@/lib/utils"
-import { buttonVariants } from "@/components/ui/button"
 
 export function SiteHeader() {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/45 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 h-16">
         
-        {/* POJOK KIRI ATAS: Logo / Nama Nila Wati */}
+        {/* LOGO DI POJOK KIRI ATAS */}
         <Link href="#about" className="flex items-center gap-2">
           <img 
             src="/images/logo-nila.png" 
             alt="Logo Nila Wati" 
-            className="h-9 md:h-10 w-auto object-contain"
+            className="h-10 md:h-12 w-auto object-contain"
           />
         </Link>
 
