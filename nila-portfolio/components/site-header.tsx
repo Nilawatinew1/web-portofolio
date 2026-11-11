@@ -6,10 +6,7 @@ import { cn } from "@/lib/utils"
 
 const nav = [
   { href: "#about", label: "Tentang" },
-  { href: "#skills", label: "Keterampilan" },
-  { href: "#experience", label: "Pengalaman" },
   { href: "#projects", label: "Proyek" },
-  { href: "#education", label: "Pendidikan" },
   { href: "#certs", label: "Sertifikasi" },
   { href: "#contact", label: "Kontak" },
 ]

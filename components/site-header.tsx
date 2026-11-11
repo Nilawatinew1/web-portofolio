@@ -7,10 +7,7 @@ import { MoreVertical, X } from "lucide-react"
 
 const nav = [
   { href: "#about", label: "Tentang" },
-  { href: "#skills", label: "Keterampilan" },
-  { href: "#experience", label: "Pengalaman" },
   { href: "#projects", label: "Proyek" },
-  { href: "#education", label: "Pendidikan" },
   { href: "#certs", label: "Sertifikasi" },
   { href: "#achievements", label: "Pencapaian" },
   { href: "#contact", label: "Kontak" },
@@ -36,7 +33,7 @@ export function SiteHeader() {
             <Link
               key={item.href}
               href={item.href}
-              onClick={() => setIsOpen(false)}e
+              onClick={() => setIsOpen(false)}
               className="px-3 py-1.5 rounded-full text-xs font-medium transition-all border border-border bg-background text-muted-foreground hover:border-primary hover:bg-primary/10 hover:text-primary"
             >
               {item.label}
