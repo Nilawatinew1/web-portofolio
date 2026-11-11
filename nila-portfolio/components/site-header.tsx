@@ -1,45 +1,42 @@
-"use client"
 import Link from "next/link"
-import { ThemeToggle } from "./theme-toggle"
-import { Button } from "./ui/button"
+import { siteConfig } from "@/config/site"
 import { cn } from "@/lib/utils"
-
-const nav = [
-  { href: "#about", label: "Tentang" },
-  { href: "#projects", label: "Proyek" },
-  { href: "#certs", label: "Sertifikasi" },
-  { href: "#contact", label: "Kontak" },
-]
+import { buttonVariants } from "@/components/ui/button"
 
 export function SiteHeader() {
   return (
-    <header className="sticky top-0 z-50 bg-background/80 backdrop-blur supports-[backdrop-filter]:bg-background/60 border-b">
-      <nav className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
-        <Link href="#top" className="font-semibold tracking-tight text-pretty">
-          <span className="text-primary">Nila</span> Wati
+    <header className="sticky top-0 z-50 w-full border-b border-border/45 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+      <div className="mx-auto flex max-w-6xl items-center justify-between px-4 h-16">
+        
+        {/* POJOK KIRI ATAS: Logo / Nama Nila Wati */}
+        <Link href="#about" className="flex items-center gap-2">
+          <img 
+            src="/images/logo-nila.png" 
+            alt="Logo Nila Wati" 
+            className="h-9 md:h-10 w-auto object-contain"
+          />
         </Link>
-        <div className="hidden md:flex items-center gap-2">
-          {nav.map((n) => (
-            <a
-              key={n.href}
-              href={n.href}
-              className={cn(
-                "rounded-md px-3 py-2 text-sm hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring",
-              )}
-              aria-label={`Lompat ke ${n.label}`}
-            >
-              {n.label}
-            </a>
-          ))}
-          <ThemeToggle />
-        </div>
-        <div className="md:hidden flex items-center gap-2">
-          <ThemeToggle />
-          <Button asChild size="sm" variant="outline">
-            <a href="#contact">Hubungi</a>
-          </Button>
-        </div>
-      </nav>
+
+        {/* MENU NAVIGASI DI KANAN */}
+        <nav className="flex items-center gap-1 sm:gap-6 text-sm font-medium">
+          <a href="#about" className="transition-colors hover:text-primary px-2 py-1">
+            Tentang
+          </a>
+          <a href="#projects" className="transition-colors hover:text-primary px-2 py-1">
+            Proyek
+          </a>
+          <a href="#certifications" className="transition-colors hover:text-primary px-2 py-1">
+            Sertifikasi
+          </a>
+          <a href="#achievements" className="transition-colors hover:text-primary px-2 py-1">
+            Pencapaian
+          </a>
+          <a href="#contact" className="transition-colors hover:text-primary px-2 py-1">
+            Kontak
+          </a>
+        </nav>
+
+      </div>
     </header>
   )
 }
