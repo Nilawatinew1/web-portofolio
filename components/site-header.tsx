@@ -5,12 +5,12 @@ export function SiteHeader() {
     <header className="sticky top-0 z-50 w-full border-b border-border/45 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 h-16">
         
-        {/* LOGO DI POJOK KIRI ATAS */}
+        {/* LOGO DI POJOK KIRI ATAS (Ukuran diperbesar menjadi 44px) */}
         <Link href="#about" className="flex items-center">
           <img 
             src="/images/logo-nila.png" 
             alt="Logo Nila Wati" 
-            style={{ height: "36px", width: "auto" }}
+            style={{ height: "44px", width: "auto" }}
             className="object-contain"
           />
         </Link>
