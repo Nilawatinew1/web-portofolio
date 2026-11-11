@@ -195,4 +195,13 @@ export const cvData = {
       link: "https://www.linkedin.com/posts/nila-wati786_baru-coba-membuat-video-menggunakan-ai-untuk-activity-7395339114277007360-m3WT?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFIgAiIB6l1SQkTA4MT6ICC32jAc7SO21hw"
     },
   ] as Project[],
+  socialprojects: [
+  {
+    title: "Rumus Dasar Excel",
+    image: "/images/dua.png", // sesuaikan dengan nama file gambarmu
+    alt: "Rumus",
+    link: "https://www.tiktok.com/@_nilawtt/photo/7668169361135373588" // atau link postinganmu
+  },
+  // Tambahkan proyek sosial media lainnya jika ada
+]
 }
