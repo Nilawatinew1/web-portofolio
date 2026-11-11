@@ -8,7 +8,7 @@ export function HeroSection() {
     <section id="about" className="relative isolate py-12 md:py-20">
       <div className="mx-auto flex flex-col lg:flex-row items-center justify-between max-w-6xl gap-12 px-4">
         
-        {/* POSISI KIRI: FOTO (Tanpa Border Lingkaran) */}
+        {/* POSISI KIRI: FOTO TANPA BORDER */}
         <div className="flex justify-center w-full lg:w-1/2">
           <div className="w-72 md:w-96 max-w-full">
             <img
@@ -19,7 +19,7 @@ export function HeroSection() {
           </div>
         </div>
 
-        {/* POSISI KANAN: TEKS NAMA, PERAN & DESKRIPSI */}
+        {/* POSISI KANAN: TEKS NAMA & DESKRIPSI (Tanpa Logo di Tengah) */}
         <div className="flex-1 text-center lg:text-left w-full lg:w-1/2">
           <h1 className="text-pretty text-3xl font-bold leading-tight sm:text-4xl md:text-5xl text-foreground">
             {cvData.name}
